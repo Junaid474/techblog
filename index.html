@@ -73,7 +73,7 @@
             --text-main: #334155;
         }
 
-        /* Sticky Footer Fix */
+        /* Full Height Layout */
         html, body { height: 100%; }
 
         body {
@@ -87,11 +87,11 @@
             font-weight: 700;
         }
 
-        /* Hero */
+        /* Hero Section - Responsive Padding */
         .hero-section {
             background: var(--dark-bg);
             position: relative;
-            padding: 100px 0;
+            padding: 80px 0 60px 0; /* Adjusted for mobile */
             overflow: hidden;
             color: white;
         }
@@ -102,7 +102,7 @@
             -webkit-text-fill-color: transparent;
         }
 
-        /* Components */
+        /* Cards */
         .tech-card {
             border: none;
             border-radius: 16px;
@@ -110,11 +110,11 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             overflow: hidden;
-            height: 100%; /* Ensures cards are equal height */
+            height: 100%; 
         }
 
         .tech-card:hover {
-            transform: translateY(-10px);
+            transform: translateY(-5px);
             box-shadow: 0 15px 30px rgba(13, 110, 253, 0.15);
         }
 
@@ -125,7 +125,7 @@
 
         .navbar {
             backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             border-bottom: 1px solid rgba(0,0,0,0.05);
         }
 
@@ -143,7 +143,6 @@
             color: white;
         }
 
-        /* New Enhancements Styles */
         .breadcrumb-bar {
             background: #e9ecef;
             font-size: 0.9rem;
@@ -193,10 +192,9 @@
     <header class="hero-section text-center d-flex align-items-center">
         <div class="container" data-aos="fade-up">
             <span class="badge bg-primary bg-opacity-25 text-primary border border-primary mb-3 px-3 py-2 rounded-pill">Version 2.0 Live</span>
-            <h1 class="display-3 mb-3">Explore the <span class="text-gradient">Future of Tech</span></h1>
+            <h1 class="display-4 display-lg-3 mb-3 mt-2">Explore the <span class="text-gradient">Future of Tech</span></h1>
             <p class="lead text-secondary text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;">
                 Deep dives into coding, cloud architecture, and the latest gadget reviews. 
-                Optimized for performance and readability.
             </p>
             <a href="#latest-posts" class="btn btn-tech btn-lg shadow-lg">Start Reading <i class="fas fa-arrow-right ms-2"></i></a>
         </div>
@@ -222,7 +220,7 @@
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-md-4" data-aos="fade-up">
+                    <div class="col-md-6" data-aos="fade-up">
                         <article class="card tech-card h-100">
                             <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Coding">
                             <div class="card-body">
@@ -237,7 +235,7 @@
                         </article>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <article class="card tech-card h-100">
                             <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Security">
                             <div class="card-body">
@@ -252,9 +250,9 @@
                         </article>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <article class="card tech-card h-100">
-                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Cloud Server">
+                            <img src="https://images.unsplash.com/photo-1544197150-b99a580bbc7c?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Cloud Server">
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Cloud</span>
                                 <h5 class="card-title fw-bold">Cloudflare CDN Guide</h5>
