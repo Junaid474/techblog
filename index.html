@@ -5,45 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0d6efd">
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG6WSPED87"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-VG6WSPED87');
+    </script>
+
+    <meta http-equiv="Cache-Control" content="public, max-age=3600">
+    <meta http-equiv="Expires" content="43200">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
 
-    <title>Junaid474 TechBlog | Future Tech & Coding Insights</title>
-    <meta name="description" content="Expert insights on software development, cloud computing, and emerging tech trends. Tutorials and reviews by Junaid.">
-    <meta name="keywords" content="web development, python, cloudflare, github pages, tech tutorial, coding">
+    <title>Junaid474 TechBlog | Expert Coding & Cloud Insights</title>
+    <meta name="description" content="Technical tutorials, cloud architecture reviews, and software development guides. Authored by Junaid, MPhil Scholar and Tech Researcher.">
+    <meta name="keywords" content="web development, github pages, SEO, cloudflare, python, tech blog">
     <meta name="author" content="Junaid">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://junaid474.github.io/techblog/">
 
-    <meta property="og:type" content="blog">
+    <meta property="og:type" content="article">
     <meta property="og:title" content="Junaid474 TechBlog | Future Tech">
-    <meta property="og:description" content="Expert insights on software development and tech trends.">
+    <meta property="og:description" content="Deep dives into coding and cloud architecture.">
     <meta property="og:image" content="https://junaid474.github.io/techblog/assets/cover-image.jpg">
     <meta property="og:url" content="https://junaid474.github.io/techblog/">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VG6WSPED87"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-VG6WSPED87');
-</script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Blog",
-      "name": "Junaid474 TechBlog",
-      "url": "https://junaid474.github.io/techblog/",
-      "description": "Expert insights on software development and tech trends.",
-      "publisher": {
-        "@type": "Person",
-        "name": "Junaid"
-      }
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Junaid474 TechBlog",
+          "url": "https://junaid474.github.io/techblog/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://junaid474.github.io/techblog/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "Person",
+          "name": "Junaid",
+          "url": "https://junaid474.github.io/techblog/about",
+          "jobTitle": "Tech Researcher",
+          "sameAs": [
+            "https://github.com/junaid474"
+          ]
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://junaid474.github.io/techblog/"
+          }]
+        }
+      ]
     }
     </script>
 
@@ -55,14 +82,11 @@
             --text-main: #334155;
         }
 
-        /* FIX: Ensure body takes up 100% height to push footer down */
-        html, body {
-            height: 100%;
-        }
+        html, body { height: 100%; }
 
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f1f5f9;
+            background-color: #f8f9fa;
             color: var(--text-main);
         }
 
@@ -71,34 +95,46 @@
             font-weight: 700;
         }
 
-        /* Hero Section */
+        /* Navbar & Breadcrumb */
+        .navbar {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.95);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .breadcrumb-bar {
+            background: #e9ecef;
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+
+        /* Hero */
         .hero-section {
             background: var(--dark-bg);
-            position: relative;
-            padding: 100px 0;
-            overflow: hidden;
+            padding: 80px 0;
             color: white;
+            position: relative;
         }
-        
+
         .text-gradient {
             background: var(--primary-gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
-        /* Cards */
+        /* Cards & Author */
         .tech-card {
             border: none;
-            border-radius: 16px;
+            border-radius: 12px;
             background: var(--card-bg);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            overflow: hidden;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.04);
+            transition: transform 0.3s ease;
+            height: 100%;
         }
 
         .tech-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(13, 110, 253, 0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(13, 110, 253, 0.1);
         }
 
         .card-img-top {
@@ -106,25 +142,20 @@
             object-fit: cover;
         }
 
-        /* Navbar */
-        .navbar {
-            backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.9);
-            border-bottom: 1px solid rgba(0,0,0,0.05);
+        .author-box {
+            background: white;
+            border-left: 5px solid #0d6efd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
 
         .btn-tech {
             background: var(--primary-gradient);
             border: none;
             color: white;
-            padding: 10px 25px;
             border-radius: 50px;
-            font-weight: 600;
-        }
-        
-        .btn-tech:hover {
-            opacity: 0.9;
-            color: white;
+            padding: 10px 25px;
         }
     </style>
 </head>
@@ -141,133 +172,146 @@
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                    
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                            Legal
-                        </a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legal</a>
                         <ul class="dropdown-menu border-0 shadow-sm">
                             <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
                             <li><a class="dropdown-item" href="#">Terms of Use</a></li>
                             <li><a class="dropdown-item" href="#">Disclaimer</a></li>
                         </ul>
                     </li>
-
-                    <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-sm btn-outline-primary rounded-pill px-4" href="#">Subscribe</a></li>
+                    <li class="nav-item ms-lg-2"><a class="btn btn-sm btn-outline-primary rounded-pill px-4" href="#">Subscribe</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="hero-section text-center d-flex align-items-center">
+    <div class="breadcrumb-bar mt-5 pt-4">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item active" aria-current="page"><i class="fas fa-home me-1"></i> Home</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <header class="hero-section text-center">
         <div class="container" data-aos="fade-up">
-            <span class="badge bg-primary bg-opacity-25 text-primary border border-primary mb-3 px-3 py-2 rounded-pill"> technology</span>
-            <h1 class="display-3 mb-3">Explore the <span class="text-gradient">Future of Tech</span></h1>
-            <p class="lead text-secondary text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;">
-                Deep dives into coding, cloud architecture, and the latest gadget reviews. 
-                Optimized for performance and readability.
-            </p>
-            <a href="#latest-posts" class="btn btn-tech btn-lg shadow-lg">Start Reading <i class="fas fa-arrow-right ms-2"></i></a>
+            <h1 class="display-4 fw-bold">Decoding the <span class="text-gradient">Digital World</span></h1>
+            <p class="lead text-light opacity-75 mb-4">Technical insights, source code analysis, and developer guides.</p>
         </div>
     </header>
 
-    <main class="container py-5 flex-grow-1" id="latest-posts">
-        <div class="row mb-4 align-items-center">
-            <div class="col">
-                <h2 class="fw-bold mb-0">Latest Articles</h2>
-            </div>
-            <div class="col-auto">
-                <a href="#" class="text-decoration-none fw-bold">View All <i class="fas fa-angle-right"></i></a>
-            </div>
-        </div>
+    <main class="container py-5 flex-grow-1">
+        <div class="row">
+            
+            <div class="col-lg-8">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h2 class="fw-bold h4">Recent Publications</h2>
+                    <span class="badge bg-primary rounded-pill">New</span>
+                </div>
 
-        <div class="row g-4">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <article class="card tech-card h-100">
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Coding">
-                    <div class="card-body">
-                        <span class="badge bg-info text-dark mb-2">Development</span>
-                        <h5 class="card-title fw-bold">Mastering Github Pages</h5>
-                        <p class="card-text text-muted small">How to host your website for free with custom domains and SSL.</p>
+                <article class="card tech-card mb-4" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100" alt="Coding" style="object-fit:cover;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold"><a href="#" class="text-decoration-none text-dark">Mastering GitHub Pages</a></h5>
+                                <p class="card-text text-secondary small">A comprehensive guide to hosting static websites for free using GitHub repositories.</p>
+                                <p class="card-text"><small class="text-muted">By Junaid • Jan 16, 2026</small></p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center pb-3">
-                        <small class="text-muted"><i class="far fa-clock"></i> 5 min read</small>
-                        <a href="#" class="btn btn-sm btn-outline-dark rounded-pill">Read <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="card tech-card mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100" alt="Security" style="object-fit:cover;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold"><a href="#" class="text-decoration-none text-dark">Web Security Essentials</a></h5>
+                                <p class="card-text text-secondary small">Understanding HTTPS, SSL, and how to protect your blog from common vulnerabilities.</p>
+                                <p class="card-text"><small class="text-muted">By Junaid • Jan 10, 2026</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card tech-card mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&q=80" class="img-fluid rounded-start h-100" alt="Cloud Network" style="object-fit:cover;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold"><a href="#" class="text-decoration-none text-dark">Cloudflare CDN Guide</a></h5>
+                                <p class="card-text text-secondary small">Why using a CDN makes your site 10x faster and how to set it up correctly.</p>
+                                <p class="card-text"><small class="text-muted">By Junaid • Jan 05, 2026</small></p>
+                            </div>
+                        </div>
                     </div>
                 </article>
             </div>
 
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <article class="card tech-card h-100">
-                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Cybersecurity">
-                    <div class="card-body">
-                        <span class="badge bg-danger mb-2">Security</span>
-                        <h5 class="card-title fw-bold">Web Security Essentials</h5>
-                        <p class="card-text text-muted small">Protecting your static site from common vulnerabilities and attacks.</p>
+            <aside class="col-lg-4 ps-lg-4">
+                
+                <div class="author-box mb-4" data-aos="fade-left">
+                    <h5 class="fw-bold mb-3">Meet the Editor</h5>
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                            <i class="fas fa-user-graduate text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">Junaid</h6>
+                            <small class="text-muted">Tech Researcher</small>
+                        </div>
                     </div>
-                    <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center pb-3">
-                        <small class="text-muted"><i class="far fa-clock"></i> 8 min read</small>
-                        <a href="#" class="btn btn-sm btn-outline-dark rounded-pill">Read <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-            </div>
+                    <p class="small text-secondary">
+                        Passionate about open-source technologies and web standards. Dedicated to providing accurate, tested, and high-quality tech tutorials.
+                    </p>
+                    <a href="#" class="btn btn-sm btn-outline-primary w-100">View Portfolio</a>
+                </div>
 
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <article class="card tech-card h-100">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Cloud">
-                    <div class="card-body">
-                        <span class="badge bg-success mb-2">Cloud</span>
-                        <h5 class="card-title fw-bold">Cloudflare CDN Guide</h5>
-                        <p class="card-text text-muted small">Why using a CDN makes your site 10x faster and how to set it up.</p>
+                <div class="mb-4">
+                    <h5 class="fw-bold mb-3">Topics</h5>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="badge bg-light text-dark text-decoration-none border">Cloud Computing</a>
+                        <a href="#" class="badge bg-light text-dark text-decoration-none border">Web Dev</a>
+                        <a href="#" class="badge bg-light text-dark text-decoration-none border">Cybersecurity</a>
+                        <a href="#" class="badge bg-light text-dark text-decoration-none border">Python</a>
                     </div>
-                    <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center pb-3">
-                        <small class="text-muted"><i class="far fa-clock"></i> 6 min read</small>
-                        <a href="#" class="btn btn-sm btn-outline-dark rounded-pill">Read <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </article>
-            </div>
+                </div>
+
+            </aside>
         </div>
     </main>
 
     <footer class="bg-dark text-white pt-5 pb-3 mt-auto">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-4">
-                    <h5 class="fw-bold text-primary">Junaid474</h5>
-                    <p class="text-secondary small">Sharing knowledge about the digital world, one line of code at a time.</p>
+                <div class="col-md-6 mb-3">
+                    <h5 class="fw-bold text-primary">JunaidTech</h5>
+                    <p class="small text-secondary">Your trusted source for technology insights.</p>
                 </div>
-                <div class="col-md-4 mb-4">
-                    <h6 class="text-uppercase fw-bold mb-3">Links</h6>
-                    <ul class="list-unstyled text-secondary small">
-                        <li><a href="#" class="text-decoration-none text-secondary hover-white">About</a></li>
-                        <li><a href="#" class="text-decoration-none text-secondary hover-white">Contact</a></li>
-                        <li><a href="#" class="text-decoration-none text-secondary hover-white">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <h6 class="text-uppercase fw-bold mb-3">Connect</h6>
-                    <div>
-                        <a href="#" class="text-white me-3"><i class="fab fa-github fa-lg"></i></a>
-                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
-                        <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
-                    </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-secondary text-decoration-none me-3 small">Privacy Policy</a>
+                    <a href="#" class="text-secondary text-decoration-none small">Terms of Service</a>
                 </div>
             </div>
             <hr class="border-secondary">
-            <div class="text-center text-secondary small">
-                &copy; 2026 Junaid474 TechBlog. All rights reserved.
-            </div>
+            <p class="text-center text-secondary small mb-0">&copy; 2026 Junaid474. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init({
-            duration: 800,
-            once: true
-        });
+        AOS.init({ duration: 800, once: true });
     </script>
 </body>
 </html>
