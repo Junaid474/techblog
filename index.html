@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0d6efd">
 
-    <meta http-equiv="Cache-Control" content="public, max-age=3600">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
     <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,13 +76,21 @@
             --text-main: #334155;
         }
 
-        /* Sticky Footer Fix */
-        html, body { height: 100%; }
+        /* FIX: Prevent Horizontal Scroll & Sidebar Cutoff */
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f1f5f9;
             color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         h1, h2, h3, h4 {
@@ -87,11 +98,11 @@
             font-weight: 700;
         }
 
-        /* Hero */
+        /* Hero Section */
         .hero-section {
             background: var(--dark-bg);
             position: relative;
-            padding: 100px 0;
+            padding: 100px 0 80px 0;
             overflow: hidden;
             color: white;
         }
@@ -102,7 +113,7 @@
             -webkit-text-fill-color: transparent;
         }
 
-        /* Components */
+        /* Tech Cards */
         .tech-card {
             border: none;
             border-radius: 16px;
@@ -110,11 +121,11 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             overflow: hidden;
-            height: 100%; /* Ensures cards are equal height */
+            height: 100%;
         }
 
         .tech-card:hover {
-            transform: translateY(-10px);
+            transform: translateY(-5px);
             box-shadow: 0 15px 30px rgba(13, 110, 253, 0.15);
         }
 
@@ -123,9 +134,10 @@
             object-fit: cover;
         }
 
+        /* Navbar */
         .navbar {
             backdrop-filter: blur(10px);
-            background: rgba(255, 255, 255, 0.9);
+            background: rgba(255, 255, 255, 0.95);
             border-bottom: 1px solid rgba(0,0,0,0.05);
         }
 
@@ -143,23 +155,24 @@
             color: white;
         }
 
-        /* New Enhancements Styles */
         .breadcrumb-bar {
             background: #e9ecef;
             font-size: 0.9rem;
         }
         
+        /* Author Box Fix */
         .author-box {
             background: white;
             border-left: 4px solid #0d6efd;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            width: 100%; /* Ensures it fits container */
         }
     </style>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+<body>
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
@@ -170,7 +183,6 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     
@@ -193,11 +205,10 @@
 
     <header class="hero-section text-center d-flex align-items-center">
         <div class="container" data-aos="fade-up">
-            <span class="badge bg-primary bg-opacity-25 text-primary border border-primary mb-3 px-3 py-2 rounded-pill">technology blog</span>
-            <h1 class="display-3 mb-3">Explore the <span class="text-gradient">Future of Tech</span></h1>
+            <span class="badge bg-primary bg-opacity-25 text-primary border border-primary mb-3 px-3 py-2 rounded-pill">Version 2.0 Live</span>
+            <h1 class="display-4 display-lg-3 mb-3 mt-2">Explore the <span class="text-gradient">Future of Tech</span></h1>
             <p class="lead text-secondary text-light opacity-75 mb-5 mx-auto" style="max-width: 600px;">
-                Deep dives into coding, cloud architecture, and the latest gadget reviews. 
-                Optimized for performance and readability.
+                Deep dives into coding, cloud architecture, and the latest gadget reviews.
             </p>
             <a href="#latest-posts" class="btn btn-tech btn-lg shadow-lg">Start Reading <i class="fas fa-arrow-right ms-2"></i></a>
         </div>
@@ -214,16 +225,14 @@
     </div>
 
     <main class="container py-5 flex-grow-1" id="latest-posts">
-        <div class="row">
-            
-            <div class="col-lg-8">
+        <div class="row g-4"> <div class="col-lg-8">
                 <div class="d-flex justify-content-between align-items-center mb-4">
                     <h2 class="fw-bold mb-0">Latest Articles</h2>
                     <a href="#" class="text-decoration-none fw-bold small">View All <i class="fas fa-angle-right"></i></a>
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-md-4" data-aos="fade-up">
+                    <div class="col-md-6" data-aos="fade-up">
                         <article class="card tech-card h-100">
                             <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Coding">
                             <div class="card-body">
@@ -238,13 +247,13 @@
                         </article>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <article class="card tech-card h-100">
                             <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Security">
                             <div class="card-body">
                                 <span class="badge bg-danger mb-2">Security</span>
                                 <h5 class="card-title fw-bold">Web Security Essentials</h5>
-                                <p class="card-text text-muted small">Protecting your static site from common vulnerabilities and attacks.</p>
+                                <p class="card-text text-muted small">Protecting your static site from common vulnerabilities.</p>
                             </div>
                             <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center pb-3">
                                 <small class="text-muted"><i class="far fa-clock"></i> 8 min read</small>
@@ -253,9 +262,9 @@
                         </article>
                     </div>
 
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <article class="card tech-card h-100">
-                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Cloud Server">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80&v=3" class="card-img-top" alt="Server Technology">
                             <div class="card-body">
                                 <span class="badge bg-success mb-2">Cloud</span>
                                 <h5 class="card-title fw-bold">Cloudflare CDN Guide</h5>
@@ -270,32 +279,34 @@
                 </div>
             </div>
 
-            <aside class="col-lg-4 ps-lg-5 mt-5 mt-lg-0">
-                <div class="author-box mb-4" data-aos="fade-left">
-                    <h5 class="fw-bold mb-3">Meet the Editor</h5>
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
-                            <i class="fas fa-user-graduate text-primary"></i>
+            <aside class="col-lg-4 mt-5 mt-lg-0">
+                <div class="ps-lg-4"> <div class="author-box mb-4" data-aos="fade-left">
+                        <h5 class="fw-bold mb-3">Meet the Editor</h5>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-light rounded-circle d-flex align-items-center justify-content-center me-3" style="width: 50px; height: 50px;">
+                                <i class="fas fa-user-graduate text-primary"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 fw-bold">Junaid</h6>
+                                <small class="text-muted">Tech Researcher</small>
+                            </div>
                         </div>
-                        <div>
-                            <h6 class="mb-0 fw-bold">Junaid</h6>
-                            <small class="text-muted">Tech Researcher</small>
-                        </div>
+                        <p class="small text-secondary">
+                            Passionate about open-source technologies. Providing accurate, tested, and high-quality tech tutorials.
+                        </p>
+                        <a href="#" class="btn btn-sm btn-outline-primary w-100">View Portfolio</a>
                     </div>
-                    <p class="small text-secondary">
-                        Passionate about open-source technologies and web standards. Providing accurate, tested, and high-quality tech tutorials.
-                    </p>
-                    <a href="#" class="btn btn-sm btn-outline-primary w-100">View Portfolio</a>
-                </div>
 
-                <div class="mb-4">
-                    <h5 class="fw-bold mb-3">Trending Topics</h5>
-                    <div class="d-flex flex-wrap gap-2">
-                        <span class="badge bg-white text-dark border p-2">#WebDev</span>
-                        <span class="badge bg-white text-dark border p-2">#CloudComputing</span>
-                        <span class="badge bg-white text-dark border p-2">#Python</span>
-                        <span class="badge bg-white text-dark border p-2">#CyberSec</span>
+                    <div class="mb-4">
+                        <h5 class="fw-bold mb-3">Trending Topics</h5>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-white text-dark border p-2">#WebDev</span>
+                            <span class="badge bg-white text-dark border p-2">#CloudComputing</span>
+                            <span class="badge bg-white text-dark border p-2">#Python</span>
+                            <span class="badge bg-white text-dark border p-2">#CyberSec</span>
+                        </div>
                     </div>
+                    
                 </div>
             </aside>
 
@@ -338,7 +349,8 @@
     <script>
         AOS.init({
             duration: 800,
-            once: true
+            once: true,
+            disable: 'mobile' /* Disable animations on mobile to prevent layout jumps */
         });
     </script>
 </body>
