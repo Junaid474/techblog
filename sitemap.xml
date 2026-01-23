@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>https://junaid474.github.io/techblog/</loc><lastmod>2026-01-23</lastmod></url>
     <url><loc>https://junaid474.github.io/techblog/articles.html</loc></url>
+    <url><loc>https://junaid474.github.io/techblog/about.html</loc></url>
+    <url><loc>https://junaid474.github.io/techblog/contact.html</loc></url>
+    <url><loc>https://junaid474.github.io/techblog/privacy.html</loc></url>
+    <url><loc>https://junaid474.github.io/techblog/terms.html</loc></url>
     <url><loc>https://junaid474.github.io/techblog/blog/tech.html</loc><lastmod>2026-01-23</lastmod></url>
     <url><loc>https://junaid474.github.io/techblog/blog/gemini-vs-chatgpt.html</loc><lastmod>2026-01-23</lastmod></url>
     <url><loc>https://junaid474.github.io/techblog/blog/ai-progress-2025-full-year-analysis.html</loc><lastmod>2026-01-17</lastmod></url>
