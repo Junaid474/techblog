@@ -11,6 +11,9 @@ Junaid474 TechBlog - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [The Unfolding Horizon: Best Tech Shaping Our World Until 2026](https://junaid474.github.io/techblog/blog/The-Unfolding-Horizon.html)
+- [The Shifting Sands of AI: A Deep Dive into OpenAI's Latest Chapter and ChatGPT's Evolution](https://junaid474.github.io/techblog/blog/openai-dive.html)
+- [powerful tech which may shape the future of tech](https://junaid474.github.io/techblog/blog/expectedfuture-oftech.html)
 - [Agentic AI: Why 2026 is the Year Software Starts "Doing"](https://junaid474.github.io/techblog/blog/tech.html)
 - [ Gemini vs. ChatGPT 2026: The Definitive Tech Comparison](https://junaid474.github.io/techblog/blog/gemini-vs-chatgpt.html)
 - [AI progress 2025 full year analysis](https://junaid474.github.io/techblog/blog/ai-progress-2025-full-year-analysis.html)
