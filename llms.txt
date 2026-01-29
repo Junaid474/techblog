@@ -11,7 +11,7 @@ Junaid474 TechBlog - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
-- [The New Era of AI: From Agentic Bots to the Apple AI Pin](https://junaid474.github.io/techblog/blog/agentic-bot.html)
+- [An Era of AI: From Agentic Bots to the Apple AI Pin](https://junaid474.github.io/techblog/blog/agentic-bot.html)
 - [What is Clawdbot AI? The Ultimate Guide to Moltbot (2026 Rebrand)](https://junaid474.github.io/techblog/blog/clawdbot-ai-info.html)
 - [Unraveling the AI Enigma: A Deep Dive into Artificial Intelligence](https://junaid474.github.io/techblog/blog/unraveling-the-ai-enigma-deep-dive-into-artificial-intelligence.html)
 - [Is China competing with US in ai chips race](https://junaid474.github.io/techblog/blog/chip-race.html)
