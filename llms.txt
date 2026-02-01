@@ -11,6 +11,8 @@ Junaid474 TechBlog - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [Unleashing Local AI: The ClawdBot Revolution on Mac Mini](https://junaid474.github.io/techblog/blog/clawdbot-mac-mini.html)
+- [Unveiling OpenAI Prism: A Multi-faceted Approach to Advanced AI](https://junaid474.github.io/techblog/blog/openai-prism.html)
 - [OpenAI vs. DeepSeek: A competition between companies](https://junaid474.github.io/techblog/blog/openai-vs-deepseek-ai-philosophies-capabilities.html)
 - [An Era of AI: From Agentic Bots to the Apple AI Pin](https://junaid474.github.io/techblog/blog/agentic-bot.html)
 - [What is Clawdbot AI? The Ultimate Guide to Moltbot (2026 Rebrand)](https://junaid474.github.io/techblog/blog/clawdbot-ai-info.html)
