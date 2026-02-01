@@ -1,6 +1,6 @@
-# Junaid474 TechBlog
+# tech blog
 
-Junaid474 TechBlog - Tech Blog
+tech blog - Tech Blog
 
 ## Pages
 - [Home](https://junaid474.github.io/techblog/)
