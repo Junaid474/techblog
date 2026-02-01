@@ -12,7 +12,7 @@ tech blog - Tech Blog
 
 ## Articles
 - [OpenAI in 2026: The Era of the Super-Assistant and the Stargate factory](https://junaid474.github.io/techblog/blog/openai-2026.html)
-- [Meta AI in 2026: The Open Source Standard and the Wearable Revolution](https://junaid474.github.io/techblog/blog/Meta-AI.html)
+- [Meta AI in 2026: The Open Source Standard and the Wearable Revolution](https://junaid474.github.io/techblog/blog/Meta-AI-2026.html)
 - [Grok AI in 2026: The Age of Grok 4 and the Colossus Cluster](https://junaid474.github.io/techblog/blog/Grok-AI.html)
 - [The State of Gemini AI: 2026 Progress Report and Latest Updates](https://junaid474.github.io/techblog/blog/gemini-ai-latest-updates.html)
 - [Unleashing Local AI: The ClawdBot Revolution on Mac Mini](https://junaid474.github.io/techblog/blog/clawdbot-mac-mini.html)
