@@ -11,6 +11,7 @@ tech blog - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [The "Clawd Bot" Phenomenon: Why people are Searching for the New AI Challenger](https://junaid474.github.io/techblog/blog/claudai-info.html)
 - [OpenAI in 2026: The Era of the Super-Assistant and the Stargate factory](https://junaid474.github.io/techblog/blog/openai-2026.html)
 - [Meta AI in 2026: The Open Source Standard and the Wearable Revolution](https://junaid474.github.io/techblog/blog/Meta-AI-2026.html)
 - [Grok AI in 2026: The Age of Grok 4 and the Colossus Cluster](https://junaid474.github.io/techblog/blog/Grok-AI.html)
