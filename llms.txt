@@ -11,6 +11,9 @@ tech blog - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [Claude Agents: Claude 4.6 Opus, Sonnet 5, and the Rise of Agent Teams](https://junaid474.github.io/techblog/blog/claude-versions-2026.html)
+- [ Claude AI in 2026: The Rise of Anthropic's Reasoning Engine](https://junaid474.github.io/techblog/blog/Claude-AI-2026.html)
+- [The Agent Internet Arrives: Moltbook, OpenClaw, and the 2026 AI prosper](https://junaid474.github.io/techblog/blog/moltbook-openclaw-autonomous-2026.html)
 - [Grok Imagine 1.0 & The Rise of AI Video: 2026 Trends Analysis](https://junaid474.github.io/techblog/blog/grok-and-GrokImagine.html)
 - [Google Gemini Student Offer 2026: Get 12 Months of AI Premium ](https://junaid474.github.io/techblog/blog/Gemini-student-offer.html)
 - [Gemini 2.5, Nano Banana & Veo 3: The 2025 AI Breakout Guide & Student Offers](https://junaid474.github.io/techblog/blog/Gemini 2.5-Nano Banana-Veo 3.html)
