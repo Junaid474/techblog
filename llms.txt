@@ -11,6 +11,7 @@ tech blog - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [Claude Opus 4.6 info: Agent Teams, PowerPoint Integration & The Future of Agentic AI](https://junaid474.github.io/techblog/blog/Opus 4.6-agent.html)
 - [The 2026 User Manual: Essential Answers for DeepSeek, Copilot, and Claude](https://junaid474.github.io/techblog/blog/ai-user-manual-deepseek-copilot-claude-guide-2026.html)
 - [the trend of Answer Engine: Perplexity, NotebookLM, and the End of Search](https://junaid474.github.io/techblog/blog/answer-engine-perplexity-notebooklm.html)
 - [A Fragmentation: DeepSeek, Claude 4.6, and the State of AI in 2026](https://junaid474.github.io/techblog/blog/DeepSeek-and-Claude 4.6.html)
