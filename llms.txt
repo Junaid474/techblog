@@ -1,4 +1,4 @@
-# tech blog
+# tech blog || Get technological updates
 
 Description: A technical blog covering development, security, and AI.
 
