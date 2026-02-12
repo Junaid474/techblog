@@ -6,14 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0d6efd">
-    <meta http-equiv="Cache-Control" content="public, max-age=3600">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
-    
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" type="image/png">
     
     <title>The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?</title>
@@ -26,35 +22,12 @@
     <meta property="og:description" content="Explore the 2026 landscape of AI silicon, from NVIDIA’s Blackwell architecture and AMD’s MI325X to custom hyperscaler chips and radical wafer-scale engines. A deep dive into the compute, memory, and packaging innovations driving the generative AI revolution.">
     <meta property="og:url" content="https://junaid474.github.io/techblog/blog/ai-chips.html">
     <meta property="og:type" content="article">
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VG6WSPED87"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-VG6WSPED87');
-    </script>
+    <meta property="og:site_name" content="tech blog">
+    <meta property="og:image" content="https://placehold.co/1200x630/198754/ffffff?text=Blackwell+vs.+MI325X+vs.+Gaudi%203">
+    <meta name="twitter:card" content="summary_large_image">
 
-    <script type="application/ld+json">
-    {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?",
-  "author": {
-    "@type": "Person",
-    "name": "tech blog in charge"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "tech blog",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://junaid474.github.io/techblog/assets/logo.png"
-    }
-  },
-  "description": "Explore the 2026 landscape of AI silicon, from NVIDIA’s Blackwell architecture and AMD’s MI325X to custom hyperscaler chips and radical wafer-scale engines. A deep dive into the compute, memory, and packaging innovations driving the generative AI revolution."
-}
-    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://junaid474.github.io/techblog/"},{"@type":"ListItem","position":2,"name":"Articles","item":"https://junaid474.github.io/techblog/articles.html"},{"@type":"ListItem","position":3,"name":"The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?","item":"https://junaid474.github.io/techblog/blog/ai-chips.html"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?","image":"https://placehold.co/1200x630/198754/ffffff?text=Blackwell+vs.+MI325X+vs.+Gaudi%203","author":{"@type":"Person","name":"tech blog in charge"},"publisher":{"@type":"Organization","name":"tech blog"},"datePublished":"2026-01-26","description":"Explore the 2026 landscape of AI silicon, from NVIDIA’s Blackwell architecture and AMD’s MI325X to custom hyperscaler chips and radical wafer-scale engines. A deep dive into the compute, memory, and packaging innovations driving the generative AI revolution."}</script>
 
     <style>
         :root { --primary-gradient: linear-gradient(135deg, #0d6efd 0%, #0dcaf0 100%); --dark-bg: #0f172a; --card-bg: #ffffff; --text-main: #334155; }
@@ -66,19 +39,16 @@
         .tech-card:hover { transform: translateY(-5px); box-shadow: 0 15px 30px rgba(13, 110, 253, 0.15); }
         .card-img-top { height: 200px; object-fit: cover; }
         .navbar { backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.95); }
-        .btn-tech { background: var(--primary-gradient); border: none; color: white; border-radius: 50px; padding: 10px 25px; }
-        .author-box { background: white; border-left: 4px solid #0d6efd; padding: 20px; border-radius: 8px; }
-        a { text-decoration: none; }
-        /* Ad Styles */
-        .ad-sidebar-left img, .ad-sidebar-right img { max-width: 100%; height: auto; display: block; margin-bottom: 10px; }
-        .ad-footer-section img { max-width: 100%; height: auto; }
+        .breadcrumb-item a { text-decoration: none; color: #6c757d; }
+        .breadcrumb-item.active { color: #0d6efd; font-weight: 600; }
         footer a:hover { color: #fff !important; }
+        .ad-sidebar-left img, .ad-sidebar-right img, .ad-footer-section img { max-width: 100%; height: auto; display: block; }
     </style>
     
 </head>
 <body class="d-flex flex-column min-vh-100">
 <div id="notice-bar" class="bg-warning text-dark text-center py-2 fw-bold position-relative">
-                    <span>If you would like to support techblog work, here is the IBAN: PK84NAYA1234503275402136 e.g $10, $20, $50, $100</span>
+                    <span>If you would like to support tech blog work, here is the 🌟 IBAN: PK84NAYA1234503275402136 🌟 even if it's a dollar $10.      </span>
                     <button onclick="document.getElementById('notice-bar').style.display='none'" class="btn-close btn-sm position-absolute end-0 top-50 translate-middle-y me-3"></button>
                  </div>
 
@@ -93,13 +63,11 @@
                 <ul class="navbar-nav ms-auto align-items-center">
                     <li class="nav-item"><a class="nav-link" href="https://junaid474.github.io/techblog/index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://junaid474.github.io/techblog/articles.html">Articles</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://junaid474.github.io/techblog/about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://junaid474.github.io/techblog/contact.html">Contact</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Legal</a>
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Info</a>
                         <ul class="dropdown-menu border-0 shadow-sm">
-                            <li><a class="dropdown-item" href="https://junaid474.github.io/techblog/privacy.html">Privacy Policy</a></li>
-                            <li><a class="dropdown-item" href="https://junaid474.github.io/techblog/terms.html">Terms of Use</a></li>
+                            <li><a class="dropdown-item" href="https://junaid474.github.io/techblog/about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="https://junaid474.github.io/techblog/contact.html">Contact</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -107,13 +75,27 @@
         </div>
     </nav>
                     <div class="container mt-5 pt-5">
-                        <nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">Home</a></li><li class="breadcrumb-item"><a href="../articles.html">Articles</a></li><li class="breadcrumb-item active">The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?</li></ol></nav>
+                        <nav aria-label="breadcrumb" class="mb-4">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="https://junaid474.github.io/techblog/index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="https://junaid474.github.io/techblog/articles.html">Articles</a></li>
+                                <li class="breadcrumb-item active">The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?</li>
+                            </ol>
+                        </nav>
                         <div class="row">
                             <div class="col-lg-8 mx-auto">
-                                <img src="https://placehold.co/1200x630/198754/ffffff?text=Blackwell+vs.+MI325X+vs.+Gaudi%203" class="img-fluid rounded-4 mb-4 w-100" alt="The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?">
+                                <img src="https://placehold.co/1200x630/198754/ffffff?text=Blackwell+vs.+MI325X+vs.+Gaudi%203" class="img-fluid rounded-4 mb-4 w-100 shadow-sm" alt="The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?">
                                 <h1 class="display-4 fw-bold mb-3">The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?</h1>
-                                <p class="text-muted mb-4"><i class="far fa-calendar"></i> 2026-01-26 | <i class="fas fa-tag"></i> Technology / Artificial Intelligence Infrastructure | <i class="fas fa-user"></i> tech blog in charge</p>
+                                <p class="text-muted mb-4 border-bottom pb-3">
+                                    <i class="far fa-calendar me-2"></i> 2026-01-26 &nbsp;|&nbsp; 
+                                    <i class="fas fa-tag me-2"></i> Technology / Artificial Intelligence Infrastructure &nbsp;|&nbsp; 
+                                    <i class="fas fa-user me-2"></i> tech blog in charge
+                                </p>
                                 <div class="article-content fs-5 lh-lg"><h2>Introduction: The Silicon Renaissance</h2><p>We are witnessing a paradigm shift in the history of computing, comparable only to the transition from vacuum tubes to transistors or the rise of the microprocessor. The explosive growth of generative artificial intelligence has fundamentally altered the trajectory of semiconductor design. For decades, the industry chased Moore's Law by shrinking transistors to squeeze more general-purpose performance out of Central Processing Units (CPUs). Today, that era has ceded ground to a new age of hyper-specialization. The latest generation of AI chips—spanning Graphics Processing Units (GPUs), Tensor Processing Units (TPUs), and novel Language Processing Units (LPUs)—are no longer just "chips" in the traditional sense. They are massive, reticle-sized supercomputers-on-a-chip, engineered with a singular obsession: to accelerate the complex linear algebra and massive parallel processing requirements of deep neural networks.</p><p>This new wave of silicon is defined by three critical vectors: massive parallel compute capabilities measured in petaFLOPS, unprecedented memory bandwidth to feed hungry logic cores, and sophisticated interconnects that allow thousands of chips to act as a single, cohesive organism. As Large Language Models (LLMs) scale from billions to trillions of parameters, the hardware running them must evolve at breakneck speeds. This article provides a comprehensive technical analysis of the latest AI accelerators reshaping the global infrastructure, examining the architectural breakthroughs of NVIDIA, AMD, and Intel, alongside the rise of custom silicon from hyperscalers and the radical innovations from startups challenging the status quo.</p><h2>NVIDIA Blackwell: The Heavyweight Champion</h2><p>NVIDIA’s dominance in the AI hardware market is not merely a result of momentum; it is the product of an aggressive, full-stack architectural philosophy. The newly unveiled <strong>Blackwell</strong> architecture, succeeding the wildly successful Hopper H100, represents a leap in density and interconnectivity that pushes the boundaries of physics and manufacturing.</p><ul><li><strong>Dual-Die Architecture:</strong> The flagship B200 GPU is arguably the first "multi-die" GPU to function indistinguishably as a single chip. Built on TSMC’s custom 4NP process, it stitches together two reticle-limited dies using a 10 TB/s chip-to-chip interconnect. This results in a massive package containing 208 billion transistors. Unlike traditional chiplet designs which might incur latency penalties, Blackwell’s coherent link allows software to view the two dies as a unified CUDA device, simplifying the programming model while doubling the raw compute surface area.</li><li><strong>The FP4 Precision Revolution:</strong> One of Blackwell's most significant innovations is the introduction of the second-generation Transformer Engine, which natively supports 4-bit floating-point (FP4) precision. By dynamically casting model weights and activations down to 4 bits, the B200 can double the throughput of previous 8-bit generations without significant accuracy loss for inference tasks. This effectively allows a single B200 to deliver up to 20 petaFLOPS of AI performance, a number that was previously the domain of entire supercomputing clusters.</li><li><strong>NVLink 5 and Scale-Up:</strong> NVIDIA understands that AI is a networking problem as much as a compute problem. The fifth-generation NVLink interconnect boosts bidirectional bandwidth to 1.8 TB/s per GPU. This allows up to 576 GPUs to be connected in a single NVLink domain, enabling models with trillions of parameters to reside in the high-speed memory fabric of a single cluster, bypassing the slower Ethernet or InfiniBand networks typically used for inter-node communication.</li></ul><h2>AMD Instinct MI325X: The Memory Monarch</h2><p>If NVIDIA is the king of compute density and software ecosystem, AMD has carved out a formidable position as the leader in memory capacity and openness. The <strong>Instinct MI300</strong> series, and the upgraded <strong>MI325X</strong>, attack the primary bottleneck of modern LLM inference: memory bandwidth and capacity.</p><p>The MI325X is an engineering marvel of 3D stacking. Utilizing TSMC's SoIC (System on Integrated Chips) technology, AMD stacks logic and memory vertically, allowing for shorter trace lengths and higher efficiency. The standout feature of the MI325X is its 256GB of HBM3e memory. To put this in perspective, this is significantly more memory per accelerator than NVIDIA’s H200. For inference workloads, memory is often destiny; a larger memory buffer allows larger models (like Llama-3-405B) to fit on fewer GPUs, drastically reducing the Total Cost of Ownership (TCO) for deployment.</p><ul><li><strong>CDNA 3 Architecture:</strong> Unlike AMD’s RDNA architecture which focuses on consumer graphics, CDNA 3 is stripped of display engines and rasterizers, focusing purely on matrix math. The Matrix Core technology in CDNA 3 has been optimized for the sparse data structures common in AI, allowing it to skip zero-value calculations to save power and cycles.</li><li><strong>The Open Ecosystem Strategy:</strong> AMD’s counter-offensive to NVIDIA’s proprietary CUDA is the ROCm (Radeon Open Compute) open software platform. By embracing open standards and contributing heavily to PyTorch and OpenAI’s Triton compiler, AMD is lowering the barrier to entry. The MI325X is designed to be a drop-in replacement in many OCP (Open Compute Project) server designs, appealing to hyperscalers who wish to avoid vendor lock-in.</li></ul><h2>Intel Gaudi 3: The Enterprise Workhorse</h2><p>Intel, while arriving later to the high-performance AI party than its GPU rivals, has taken a distinct approach with its <strong>Gaudi 3</strong> accelerator. Rather than adapting a graphics architecture for AI, Gaudi was designed from the ground up (via the acquisition of Habana Labs) as a dedicated Deep Learning accelerator. The philosophy here is distinct: prioritize networking integration and Ethernet ubiquity over raw, isolated compute peak.</p><p>Gaudi 3 features a dual-die architecture similar to Blackwell but differentiates itself with its on-chip networking. Every Gaudi 3 accelerator integrates 24 x 200 Gigabit Ethernet (GbE) ports directly onto the silicon. This means that networking is native to the chip, not an afterthought handled by a separate Network Interface Card (NIC). This allows for massive scale-out using standard, non-proprietary Ethernet switches, which is a massive advantage for enterprise data centers that may not have the specialized InfiniBand infrastructure required for NVIDIA DGX SuperPODs.</p><ul><li><strong>Compute Engines:</strong> Gaudi 3 utilizes 64 Tensor Processor Cores (TPCs) and eight Matrix Multiplication Engines (MMEs). The MMEs are wide, fixed-function blocks designed to crunch heavy matrix math, while the TPCs are programmable VLIW (Very Long Instruction Word) cores that handle the non-linear activation functions and custom operations. This split allows Gaudi 3 to be both highly efficient at standard math and flexible enough for evolving model architectures.</li><li><strong>Memory Subsystem:</strong> With 128GB of HBM2e, Gaudi 3 offers a balanced memory profile. While HBM2e is slightly older than the HBM3e found in rivals, Intel compensates with a massive 96MB on-die SRAM cache, which functions similarly to NVIDIA’s L2 cache, keeping data close to the compute engines to minimize trips to off-chip memory.</li></ul><h2>The Hyperscale Shift: Custom Silicon</h2><p>Beyond the merchant silicon providers (NVIDIA, AMD, Intel), the largest consumers of AI chips—Google, Amazon, and Microsoft—have determined that off-the-shelf hardware cannot always meet their specific efficiency and scale requirements. This has led to the "Cambrian explosion" of custom cloud silicon.</p><h3>Google TPU v6 (Trillium)</h3><p>Google’s Tensor Processing Unit (TPU) is the patriarch of custom AI silicon. The latest generation, <strong>Trillium (TPU v6)</strong>, continues Google’s tradition of systolic array architectures. Systolic arrays pump data through a grid of processing units in a rhythmic fashion, maximizing data reuse and energy efficiency. Trillium brings a 4.7x performance improvement over the TPU v5e.</p><ul><li><strong>SparseCore:</strong> A key innovation in Trillium is the inclusion of "SparseCore," a specialized dataflow processor designed to handle embeddings and recommendation workloads which often involve massive, sparse tables. This offloads the heavy lifting from the TensorCores, allowing the main compute units to focus on dense matrix multiplication.</li><li><strong>ICI (Inter-Chip Interconnect):</strong> Google’s secret weapon is its optical circuit switching network. Trillium chips are connected via a proprietary low-latency fabric that forms a 3D torus topology. This allows tens of thousands of TPUs to work on a single training job with near-linear scaling efficiency, a feat that is notoriously difficult to achieve with standard networking.</li></ul><h3>AWS Trainium2 and Inferentia2</h3><p>Amazon Web Services has bifurcated its silicon strategy. <strong>Inferentia</strong> focuses on low-latency, low-cost serving of models, while <strong>Trainium</strong> targets the massive training workloads. <strong>Trainium2</strong> is designed for "UltraClusters" of up to 100,000 chips. It specifically optimizes for the communication patterns of Large Language Models, utilizing a technology called NeuronLink to bypass the CPU and interconnect chips directly.</p><p>The architecture emphasizes stochastic rounding in hardware, which improves convergence for BF16 (Bfloat16) training, a preferred format for modern AI that balances dynamic range and precision. By controlling the full stack from the chassis to the compiler (Neuron SDK), AWS can offer significant cost savings for customers committed to the EC2 ecosystem.</p><h3>Microsoft Maia 100</h3><p>Microsoft’s entry, the <strong>Maia 100</strong>, is purpose-built for Azure’s infrastructure and specifically optimized for OpenAI’s GPT models. It features a unique vertical integration with the data center cooling infrastructure. The chip sits on a custom "sidekick" liquid cooling plate, allowing it to run at higher power densities than standard air-cooled racks would permit. Maia utilizes a custom lower-precision data format, likely variants of microscopic floating point types (MX formats), to maximize throughput for the specific weights distributions found in GPT-4 and beyond.</p><h2>Radical Architectures: Breaking the Von Neumann Bottleneck</h2><p>While the giants refine the GPU and TPU paradigms, startups are taking radical approaches to solve the fundamental inefficiencies of moving data between memory and logic.</p><h3>Cerebras WSE-3: The Wafer-Scale Giant</h3><p>Cerebras Systems challenges the very notion of a "chip." The <strong>Wafer Scale Engine 3 (WSE-3)</strong> is not cut from a silicon wafer; it <em>is</em> the wafer. A single WSE-3 device contains 4 trillion transistors and 900,000 AI cores. The genius of this design is the elimination of off-chip memory latency.</p><ul><li><strong>SRAM as Main Memory:</strong> Instead of using slow, external HBM, the WSE-3 has 44GB of SRAM distributed directly next to the cores. This provides 21 petabytes per second of memory bandwidth—thousands of times faster than a GPU. This allows the entire model (or large layers of it) to remain on-chip, enabling training speeds that are linear and deterministic.</li><li><strong>Interconnect Density:</strong> Because all cores are on the same piece of silicon, they communicate over microscopic silicon wires rather than PCB traces or cables. This results in interconnect bandwidth that is essentially instantaneous, allowing the 900,000 cores to act as a single logical processor.</li></ul><h3>Groq LPU: The Deterministic Speedster</h3><p>Groq takes a different but equally radical approach with its <strong>Language Processing Unit (LPU)</strong>. Designed by the team that created the original Google TPU, the Groq architecture eschews the complexity of GPUs—there are no caches, no branch predictors, and no dynamic schedulers. </p><p>The LPU relies on a software-defined, deterministic execution model. The compiler knows exactly how long every instruction takes and schedules the movement of data with nanosecond precision. This eliminates the "tail latency" caused by cache misses or thread scheduling on GPUs. The result is an inference engine capable of generating hundreds of tokens per second for LLMs, providing a "chat" experience that feels instant, rather than the teletype-style streaming common today. Groq achieves this by chaining hundreds of simple chips together, effectively pipelining the model across a massive assembly line of silicon.</p><h2>The Critical Bottleneck: HBM and Packaging</h2><p>Regardless of the architecture—be it GPU, TPU, or LPU—the entire industry faces a common bottleneck: High Bandwidth Memory (HBM). Modern AI is "memory-bound," meaning the compute cores spend significant time waiting for data to arrive. The transition to <strong>HBM3e</strong> is the current battleground. HBM3e offers bandwidths exceeding 1.2 TB/s per stack, but manufacturing it is incredibly complex. It requires stacking dynamic RAM (DRAM) dies vertically, connecting them with Through-Silicon Vias (TSVs), and bonding them to the logic die using advanced packaging techniques like TSMC's CoWoS (Chip-on-Wafer-on-Substrate).</p><p>This packaging process is the true limiter of global AI supply. While fabs can produce plenty of logic dies, the capacity to package them with HBM is limited. This has led to a shortage of the "interposers"—the silicon base layer that connects the GPU to the memory. Innovations in "hybrid bonding," which allows for copper-to-copper connections without solder bumps, are the next frontier, promising to increase interconnect density by another order of magnitude and alleviate thermal constraints.</p><h2>Conclusion: The Future of Compute</h2><p>The landscape of AI chips is rapidly diversifying. We are moving away from a monoculture of general-purpose GPUs toward a heterogeneous ecosystem where the hardware is increasingly defined by the model it is meant to run. NVIDIA remains the gravitational center of the industry, driving performance through vertical integration and an unassailable software moat. However, the sheer economic pressure of AI deployment is creating viable cracks for competitors. AMD offers a memory-rich alternative for inference; Intel provides an Ethernet-native solution for enterprise; and hyperscalers are successfully offloading their internal workloads to custom silicon to save billions in CAPEX.</p><p>As we look toward the future—to the Blackwell Ultra, the MI350, and beyond—the focus will shift from raw FLOPS to "tokens per watt" and "tokens per dollar." We are also likely to see a bifurcation in hardware design: massive, HBM-laden monsters for training the frontier models, and highly efficient, quantization-heavy chips (like Groq or edge-focused NPUs) for serving those models to the world. The silicon arms race is no longer just about speed; it is about the fundamental architecture of intelligence itself.</p></div>
+                                <div class="mt-5 p-4 bg-light rounded">
+                                    <h5>Disclaimer</h5>
+                                    <p class="small text-muted mb-0">The views expressed in this article are those of the author. This site uses affiliate links and ads.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -132,39 +114,45 @@
             <div class="row">
                 <div class="col-md-5 mb-4">
                     <h5 class="fw-bold text-primary mb-3">tech blog</h5>
-                    <p class="text-secondary small">A source of info for the advance technology, coding, and digital trends. Built for developers, by developers.</p>
+                    <p class="text-secondary small">Advancing technology through knowledge. Built for developers.</p>
                     <div class="mt-3">
                         
                     </div>
                 </div>
                 <div class="col-md-3 mb-4">
-                    <h6 class="text-uppercase mb-3 fw-bold">Quick Links</h6>
+                    <h6 class="text-uppercase mb-3 fw-bold">Legal & Info</h6>
                     <ul class="list-unstyled text-secondary small">
-                        <li class="mb-2"><a href="https://junaid474.github.io/techblog/index.html" class="text-secondary">Home</a></li>
-                        <li class="mb-2"><a href="https://junaid474.github.io/techblog/articles.html" class="text-secondary">Articles</a></li>
                         <li class="mb-2"><a href="https://junaid474.github.io/techblog/about.html" class="text-secondary">About Us</a></li>
                         <li class="mb-2"><a href="https://junaid474.github.io/techblog/contact.html" class="text-secondary">Contact</a></li>
                         <li class="mb-2"><a href="https://junaid474.github.io/techblog/privacy.html" class="text-secondary">Privacy Policy</a></li>
+                        <li class="mb-2"><a href="https://junaid474.github.io/techblog/terms.html" class="text-secondary">Terms of Use</a></li>
+                        <li class="mb-2"><a href="https://junaid474.github.io/techblog/disclaimer.html" class="text-secondary">Disclaimer</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 mb-4">
-                    
-                <div class="mt-4">
-                    <h6 class="text-uppercase mb-3 fw-bold">Subscribe via Email</h6>
+                     
+                    <h6 class="text-uppercase mb-3 fw-bold">Newsletter</h6>
                     <form action="mailto:junaidwaseem474@gmail.com" method="get" enctype="text/plain">
-                        <input type="hidden" name="subject" value="Subscribe Request">
                         <div class="input-group mb-3">
-                            <input type="text" name="body" class="form-control form-control-sm" placeholder="Your Email" required>
-                            <button class="btn btn-primary btn-sm" type="submit">Subscribe</button>
+                            <input type="text" name="body" class="form-control form-control-sm" placeholder="Email" required>
+                            <button class="btn btn-primary btn-sm" type="submit">Go</button>
                         </div>
                     </form>
-                </div>
                 </div>
             </div>
             <hr class="border-secondary opacity-25">
             <div class="text-center text-secondary small">&copy; 2026 tech blog. All rights reserved.</div>
         </div>
     </footer>
+    
+                <div id="cookie-consent" class="fixed-bottom bg-dark text-white p-3 text-center" style="display:none; z-index: 10000;">
+                    <p class="d-inline mb-0 me-3 small">We use cookies to improve your experience and show personalized ads.</p>
+                    <button onclick="acceptCookies()" class="btn btn-sm btn-primary">Accept</button>
+                </div>
+                <script>
+                    if(!localStorage.getItem('cookieConsent')) { document.getElementById('cookie-consent').style.display = 'block'; }
+                    function acceptCookies() { localStorage.setItem('cookieConsent', 'true'); document.getElementById('cookie-consent').style.display = 'none'; }
+                </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init({duration: 800, once: true, disable: 'mobile'});</script>
