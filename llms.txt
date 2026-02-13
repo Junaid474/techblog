@@ -11,6 +11,7 @@ tech blog || Get technological updates - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [The Open-Source AI Revolution: Architecting a Collaborative Future for Global Intelligence](https://junaid474.github.io/techblog/blog/open-source-ai.html)
 - [what is a chatbot, what are different forms of chatbots, how chatbots assist in daily life](https://junaid474.github.io/techblog/blog/chatbots-for-daily-assistance.html)
 - [how ai chips are different from regular one: ai-chips-vs-regular-processors](https://junaid474.github.io/techblog/blog/ai-chips-vs-regular-processors.html)
 - [Background of what some may say top 10 ai companies: Get information about them](https://junaid474.github.io/techblog/blog/background-of-top-10-ai-companies.html)
