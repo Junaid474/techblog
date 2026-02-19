@@ -11,6 +11,8 @@ tech blog || Get technological updates - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [Happenstance AI: Get information about it](https://junaid474.github.io/techblog/blog/Happenstance-AI.html)
+- [Get some answers about ⭐Grok AI⭐: Your Comprehensive Guide to Features, Pricing, and Access](https://junaid474.github.io/techblog/blog/answers-grok-ai.html)
 - [The 2026 Open-Source AI Renaissance: Agentic Ecosystems and Hardware Breakthroughs](https://junaid474.github.io/techblog/blog/update-2026-opensource-AI.html)
 - [The Open-Source AI Revolution: Architecting a Collaborative Future for Global Intelligence](https://junaid474.github.io/techblog/blog/open-source-ai.html)
 - [what is a chatbot, what are different forms of chatbots, how chatbots assist in daily life](https://junaid474.github.io/techblog/blog/chatbots-for-daily-assistance.html)
