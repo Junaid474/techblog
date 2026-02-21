@@ -11,6 +11,9 @@ tech blog || Get technological updates - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [Another gpt model: A Comprehensive Deep Dive into OpenAI's GPT-5.2](https://junaid474.github.io/techblog/blog/GPT-5.2.html)
+- [A Comprehensive Comparison Between Gemini 3.1 Pro and GPT-5.2](https://junaid474.github.io/techblog/blog/Gemini 3.1 Pro-vs-GPT-5.2.html)
+- [Gemini 3.1 Pro: Unlocking the Next Generation of Multimodal AI](https://junaid474.github.io/techblog/blog/Gemini-3.1-Pro.html)
 - [GROK-4-AI--Get information about its architecture role in the pursuit of AGI](https://junaid474.github.io/techblog/blog/Grok-4-ai.html)
 - [Basics of ai and types of AI and uses of ai: A Comprehensive Guide to Artificial Intelligence](https://junaid474.github.io/techblog/blog/basics-of-ai-types-and-uses.html)
 - [Happenstance AI: Get information about it](https://junaid474.github.io/techblog/blog/Happenstance-AI.html)
