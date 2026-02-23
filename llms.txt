@@ -11,6 +11,7 @@ tech blog || Get technological updates - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [Grok xAI Video Generation Capabilities in 2026: A Comprehensive Guide](https://junaid474.github.io/techblog/blog/grok-video-generation.html)
 - [Notebook AI as notebook: A Comprehensive Guide to Notebook AI and the advancement of Note-Taking](https://junaid474.github.io/techblog/blog/Notebook-AI.html)
 - [A guide to Notion AI: Revolutionizing the Workspace in 2026](https://junaid474.github.io/techblog/blog/Notion-AI.html)
 - [Welcome to the Arena: How arena.ai Became the powerful Proving Ground for Artificial Intelligence](https://junaid474.github.io/techblog/blog/arena.ai-info.html)
