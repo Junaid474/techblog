@@ -59,6 +59,7 @@
 
     <style>
         :root { --primary-gradient: linear-gradient(135deg, #0d6efd 0%, #0dcaf0 100%); --dark-bg: #0f172a; --card-bg: #ffffff; --text-main: #334155; }
+        html, body { max-width: 100vw; overflow-x: hidden; }
         body { font-family: 'Inter', sans-serif; background-color: #f1f5f9; color: var(--text-main); display: flex; flex-direction: column; min-height: 100vh; overflow-x: hidden; }
         h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; font-weight: 700; }
         .hero-section { background: var(--dark-bg); padding: 80px 0; color: white; }
@@ -78,7 +79,7 @@
     
 </head>
 <body class="d-flex flex-column min-vh-100">
-<div id="notice-bar" class="bg-warning text-dark text-center py-2 fw-bold position-relative">
+<div id="notice-bar" class="bg-warning text-dark text-center py-2 fw-bold position-relative" style="word-wrap: break-word; word-break: break-word;">
                     <span>If you would like to support techblog work, here is the 🌟 IBAN: PK84NAYA1234503275402136 🌟 min: $10</span>
                     <button onclick="document.getElementById('notice-bar').style.display='none'" class="btn-close btn-sm position-absolute end-0 top-50 translate-middle-y me-3"></button>
                  </div>
@@ -88,7 +89,7 @@
                 
     <nav class="navbar navbar-expand-lg navbar-light border-bottom sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="https://junaid474.github.io/techblog/index.html"><i class="fas fa-code text-primary"></i> tech blog || Get technological updates</a>
+            <a class="navbar-brand fw-bold text-wrap" style="max-width: 75%; font-size: 1.1rem; line-height: 1.2;" href="https://junaid474.github.io/techblog/index.html"><i class="fas fa-code text-primary"></i> tech blog || Get technological updates</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-center">
@@ -112,7 +113,7 @@
                     <div class="row">
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=findout+what+is+happenstance" class="card-img-top" alt="🔴 what is happenstance 🔴Get to know what actually happenstance AI is  ">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=findout+what+is+happenstance" class="card-img-top" alt="🔴 what is happenstance 🔴Get to know what actually happenstance AI is  " loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/findout-what-is-happenstance.html" class="text-dark">🔴 what is happenstance 🔴Get to know what actually happenstance AI is  </a></h5>
@@ -121,7 +122,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=What+is+Artificial+Intelligence" class="card-img-top" alt="What is artificial intelligence">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=What+is+Artificial+Intelligence" class="card-img-top" alt="What is artificial intelligence" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/what-is-artificial-intelligence-comprehensive-guide.html" class="text-dark">What is artificial intelligence</a></h5>
@@ -130,7 +131,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+xAI+vs+top+generators" class="card-img-top" alt="Grok xAI Video Generation vs. The World’s Top AI Video Generators">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+xAI+vs+top+generators" class="card-img-top" alt="Grok xAI Video Generation vs. The World’s Top AI Video Generators" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Grok-xAI-vs-top-generators.html" class="text-dark">Grok xAI Video Generation vs. The World’s Top AI Video Generators</a></h5>
@@ -139,7 +140,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Happenstance+tool" class="card-img-top" alt="Happenstance Tool: Revolutionizing Professional Connections with AI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Happenstance+tool" class="card-img-top" alt="Happenstance Tool: Revolutionizing Professional Connections with AI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Happenstance-tool.html" class="text-dark">Happenstance Tool: Revolutionizing Professional Connections with AI</a></h5>
@@ -148,7 +149,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=AI+Robotics" class="card-img-top" alt="Linking AI and machine learning to modern robotics">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=AI+Robotics" class="card-img-top" alt="Linking AI and machine learning to modern robotics" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/linking-ai-machine-learning-modern-robotics.html" class="text-dark">Linking AI and machine learning to modern robotics</a></h5>
@@ -157,7 +158,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Generative+AI" class="card-img-top" alt="Generative AI its uses benefits and modern age generative ai ">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Generative+AI" class="card-img-top" alt="Generative AI its uses benefits and modern age generative ai " loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/generative-ai-uses-benefits-modern-age.html" class="text-dark">Generative AI its uses benefits and modern age generative ai </a></h5>
@@ -166,7 +167,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Neural+Networks" class="card-img-top" alt="Neural network: Learn what actually Neural network is">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Neural+Networks" class="card-img-top" alt="Neural network: Learn what actually Neural network is" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/neural-networks-comprehensive-guide.html" class="text-dark">Neural network: Learn what actually Neural network is</a></h5>
@@ -175,7 +176,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Deep+Learning" class="card-img-top" alt="Deep learning: Learn what actually deep learning is">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Deep+Learning" class="card-img-top" alt="Deep learning: Learn what actually deep learning is" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/deep-learning-comprehensive-guide.html" class="text-dark">Deep learning: Learn what actually deep learning is</a></h5>
@@ -184,7 +185,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=grok+video+generation" class="card-img-top" alt="Grok xAI Video Generation Capabilities in 2026: A Comprehensive Guide">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=grok+video+generation" class="card-img-top" alt="Grok xAI Video Generation Capabilities in 2026: A Comprehensive Guide" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/grok-video-generation.html" class="text-dark">Grok xAI Video Generation Capabilities in 2026: A Comprehensive Guide</a></h5>
@@ -193,7 +194,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Notebook+AI" class="card-img-top" alt="Notebook AI as notebook: A Comprehensive Guide to Notebook AI and the advancement of Note-Taking">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Notebook+AI" class="card-img-top" alt="Notebook AI as notebook: A Comprehensive Guide to Notebook AI and the advancement of Note-Taking" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Notebook-AI.html" class="text-dark">Notebook AI as notebook: A Comprehensive Guide to Notebook AI and the advancement of Note-Taking</a></h5>
@@ -202,7 +203,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Notion+AI" class="card-img-top" alt="A guide to Notion AI: Revolutionizing the Workspace in 2026">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Notion+AI" class="card-img-top" alt="A guide to Notion AI: Revolutionizing the Workspace in 2026" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Notion-AI.html" class="text-dark">A guide to Notion AI: Revolutionizing the Workspace in 2026</a></h5>
@@ -211,7 +212,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=arena.ai+info" class="card-img-top" alt="Welcome to the Arena: How arena.ai Became the powerful Proving Ground for Artificial Intelligence">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=arena.ai+info" class="card-img-top" alt="Welcome to the Arena: How arena.ai Became the powerful Proving Ground for Artificial Intelligence" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/arena.ai-info.html" class="text-dark">Welcome to the Arena: How arena.ai Became the powerful Proving Ground for Artificial Intelligence</a></h5>
@@ -220,7 +221,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=kimi+ai" class="card-img-top" alt="The Rise of Moonshot: How 🔸 Kimi AI 🔸 is Redefining Long-Context and Agentic Intelligence">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=kimi+ai" class="card-img-top" alt="The Rise of Moonshot: How 🔸 Kimi AI 🔸 is Redefining Long-Context and Agentic Intelligence" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/kimi-ai.html" class="text-dark">The Rise of Moonshot: How 🔸 Kimi AI 🔸 is Redefining Long-Context and Agentic Intelligence</a></h5>
@@ -229,7 +230,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Handshake+AI" class="card-img-top" alt="Handshake AI: Bridging the Gap Between Academia and the Future of Work">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Handshake+AI" class="card-img-top" alt="Handshake AI: Bridging the Gap Between Academia and the Future of Work" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Handshake-AI.html" class="text-dark">Handshake AI: Bridging the Gap Between Academia and the Future of Work</a></h5>
@@ -238,7 +239,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=IFS.ai+info" class="card-img-top" alt="IFS.ai Industrial support: How IFS.ai is Revolutionizing Enterprise Software">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=IFS.ai+info" class="card-img-top" alt="IFS.ai Industrial support: How IFS.ai is Revolutionizing Enterprise Software" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/IFS.ai-info.html" class="text-dark">IFS.ai Industrial support: How IFS.ai is Revolutionizing Enterprise Software</a></h5>
@@ -247,7 +248,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=What+is+Happenstance+ai" class="card-img-top" alt="The power of 🔴Happenstance🔴: From Chance Encounters to AI-Powered Networking">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=What+is+Happenstance+ai" class="card-img-top" alt="The power of 🔴Happenstance🔴: From Chance Encounters to AI-Powered Networking" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/what-is-Happenstance-ai.html" class="text-dark">The power of 🔴Happenstance🔴: From Chance Encounters to AI-Powered Networking</a></h5>
@@ -256,7 +257,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=GPT+5.2" class="card-img-top" alt="Another gpt model: A Comprehensive Deep Dive into OpenAI's GPT-5.2">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=GPT+5.2" class="card-img-top" alt="Another gpt model: A Comprehensive Deep Dive into OpenAI's GPT-5.2" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/GPT-5.2.html" class="text-dark">Another gpt model: A Comprehensive Deep Dive into OpenAI's GPT-5.2</a></h5>
@@ -265,7 +266,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+3.1+Pro+and+GPT-5.2" class="card-img-top" alt="A Comprehensive Comparison Between Gemini 3.1 Pro and GPT-5.2">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+3.1+Pro+and+GPT-5.2" class="card-img-top" alt="A Comprehensive Comparison Between Gemini 3.1 Pro and GPT-5.2" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Gemini 3.1 Pro-vs-GPT-5.2.html" class="text-dark">A Comprehensive Comparison Between Gemini 3.1 Pro and GPT-5.2</a></h5>
@@ -274,7 +275,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+3.1+Pro" class="card-img-top" alt="Gemini 3.1 Pro: Unlocking the Next Generation of Multimodal AI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+3.1+Pro" class="card-img-top" alt="Gemini 3.1 Pro: Unlocking the Next Generation of Multimodal AI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Gemini-3.1-Pro.html" class="text-dark">Gemini 3.1 Pro: Unlocking the Next Generation of Multimodal AI</a></h5>
@@ -283,7 +284,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+4+ai" class="card-img-top" alt="GROK-4-AI--Get information about its architecture role in the pursuit of AGI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+4+ai" class="card-img-top" alt="GROK-4-AI--Get information about its architecture role in the pursuit of AGI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Grok-4-ai.html" class="text-dark">GROK-4-AI--Get information about its architecture role in the pursuit of AGI</a></h5>
@@ -292,7 +293,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Artificial+Intelligence+Basics" class="card-img-top" alt="Basics of ai and types of AI and uses of ai: A Comprehensive Guide to Artificial Intelligence">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Artificial+Intelligence+Basics" class="card-img-top" alt="Basics of ai and types of AI and uses of ai: A Comprehensive Guide to Artificial Intelligence" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/basics-of-ai-types-and-uses.html" class="text-dark">Basics of ai and types of AI and uses of ai: A Comprehensive Guide to Artificial Intelligence</a></h5>
@@ -301,7 +302,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Happenstance+AI" class="card-img-top" alt="Happenstance AI: Get information about it">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Happenstance+AI" class="card-img-top" alt="Happenstance AI: Get information about it" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Happenstance-AI.html" class="text-dark">Happenstance AI: Get information about it</a></h5>
@@ -310,7 +311,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+AI" class="card-img-top" alt="Get some answers about ⭐Grok AI⭐: Your Comprehensive Guide to Features, Pricing, and Access">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+AI" class="card-img-top" alt="Get some answers about ⭐Grok AI⭐: Your Comprehensive Guide to Features, Pricing, and Access" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/answers-grok-ai.html" class="text-dark">Get some answers about ⭐Grok AI⭐: Your Comprehensive Guide to Features, Pricing, and Access</a></h5>
@@ -319,7 +320,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=update-2026+on+opensource+AI" class="card-img-top" alt="The 2026 Open-Source AI Renaissance: Agentic Ecosystems and Hardware Breakthroughs">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=update-2026+on+opensource+AI" class="card-img-top" alt="The 2026 Open-Source AI Renaissance: Agentic Ecosystems and Hardware Breakthroughs" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">General</span>
                             <h5 class="card-title fw-bold"><a href="blog/update-2026-opensource-AI.html" class="text-dark">The 2026 Open-Source AI Renaissance: Agentic Ecosystems and Hardware Breakthroughs</a></h5>
@@ -328,7 +329,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=OpenSource+AI" class="card-img-top" alt="The Open-Source AI Revolution: Architecting a Collaborative Future for Global Intelligence">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=OpenSource+AI" class="card-img-top" alt="The Open-Source AI Revolution: Architecting a Collaborative Future for Global Intelligence" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/open-source-ai.html" class="text-dark">The Open-Source AI Revolution: Architecting a Collaborative Future for Global Intelligence</a></h5>
@@ -337,7 +338,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Chatbots+for+daily+assistance" class="card-img-top" alt="what is a chatbot, what are different forms of chatbots, how chatbots assist in daily life">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Chatbots+for+daily+assistance" class="card-img-top" alt="what is a chatbot, what are different forms of chatbots, how chatbots assist in daily life" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/chatbots-for-daily-assistance.html" class="text-dark">what is a chatbot, what are different forms of chatbots, how chatbots assist in daily life</a></h5>
@@ -346,7 +347,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=AI+Chips+vs-regular-processors" class="card-img-top" alt="how ai chips are different from regular one: ai-chips-vs-regular-processors">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=AI+Chips+vs-regular-processors" class="card-img-top" alt="how ai chips are different from regular one: ai-chips-vs-regular-processors" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/ai-chips-vs-regular-processors.html" class="text-dark">how ai chips are different from regular one: ai-chips-vs-regular-processors</a></h5>
@@ -355,7 +356,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=background+of+top+10+ai+companies" class="card-img-top" alt="Background of what some may say top 10 ai companies: Get information about them">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=background+of+top+10+ai+companies" class="card-img-top" alt="Background of what some may say top 10 ai companies: Get information about them" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/background-of-top-10-ai-companies.html" class="text-dark">Background of what some may say top 10 ai companies: Get information about them</a></h5>
@@ -364,7 +365,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini 3-vs-Claude-Sonnet 5-vs-Opus-4.5" class="card-img-top" alt="Gemini 3 vs Claude Sonnet 5 vs Opus 4.5: The 2026 AI Showdown">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini 3-vs-Claude-Sonnet 5-vs-Opus-4.5" class="card-img-top" alt="Gemini 3 vs Claude Sonnet 5 vs Opus 4.5: The 2026 AI Showdown" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Gemini 3-vs-Claude-Sonnet 5-vs-Opus-4.5.html" class="text-dark">Gemini 3 vs Claude Sonnet 5 vs Opus 4.5: The 2026 AI Showdown</a></h5>
@@ -373,7 +374,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Claude+Cowork+OpenClaw" class="card-img-top" alt="Claude Cowork & OpenClaw Review: The Rise of Opus 4.6 Agentsinfo: The progress of Claude through Opus 4.6 Agents">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Claude+Cowork+OpenClaw" class="card-img-top" alt="Claude Cowork & OpenClaw Review: The Rise of Opus 4.6 Agentsinfo: The progress of Claude through Opus 4.6 Agents" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Claude-Cowork-OpenClaw.html" class="text-dark">Claude Cowork & OpenClaw Review: The Rise of Opus 4.6 Agentsinfo: The progress of Claude through Opus 4.6 Agents</a></h5>
@@ -382,7 +383,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=History+of+AI" class="card-img-top" alt=" History of AI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=History+of+AI" class="card-img-top" alt=" History of AI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI History</span>
                             <h5 class="card-title fw-bold"><a href="blog/history-of-artificial-intelligence-evolution.html" class="text-dark"> History of AI</a></h5>
@@ -391,7 +392,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=AI+Concepts" class="card-img-top" alt="What is AI, chatbots, AI agents, machine learning, famous ai chatbots and ai tools and ai agents, also other relevant concepts ">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=AI+Concepts" class="card-img-top" alt="What is AI, chatbots, AI agents, machine learning, famous ai chatbots and ai tools and ai agents, also other relevant concepts " loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/what-is-ai-chatbots-ai-agents-machine-learning-guide.html" class="text-dark">What is AI, chatbots, AI agents, machine learning, famous ai chatbots and ai tools and ai agents, also other relevant concepts </a></h5>
@@ -400,7 +401,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Opus 4.6+agent" class="card-img-top" alt="Claude Opus 4.6 info: Agent Teams, PowerPoint Integration & The Future of Agentic AI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Opus 4.6+agent" class="card-img-top" alt="Claude Opus 4.6 info: Agent Teams, PowerPoint Integration & The Future of Agentic AI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Opus 4.6-agent.html" class="text-dark">Claude Opus 4.6 info: Agent Teams, PowerPoint Integration & The Future of Agentic AI</a></h5>
@@ -409,7 +410,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Manual+copilot+deepseek+claude" class="card-img-top" alt="The 2026 User Manual: Essential Answers for DeepSeek, Copilot, and Claude">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Manual+copilot+deepseek+claude" class="card-img-top" alt="The 2026 User Manual: Essential Answers for DeepSeek, Copilot, and Claude" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/ai-user-manual-deepseek-copilot-claude-guide-2026.html" class="text-dark">The 2026 User Manual: Essential Answers for DeepSeek, Copilot, and Claude</a></h5>
@@ -418,7 +419,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=answer+engine+perplexity+notebooklm" class="card-img-top" alt="the trend of Answer Engine: Perplexity, NotebookLM, and the End of Search">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=answer+engine+perplexity+notebooklm" class="card-img-top" alt="the trend of Answer Engine: Perplexity, NotebookLM, and the End of Search" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Artificial Intelligence / Search Technology</span>
                             <h5 class="card-title fw-bold"><a href="blog/answer-engine-perplexity-notebooklm.html" class="text-dark">the trend of Answer Engine: Perplexity, NotebookLM, and the End of Search</a></h5>
@@ -427,7 +428,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text= DeepSeek+and+Claude 4.6" class="card-img-top" alt="A Fragmentation: DeepSeek, Claude 4.6, and the State of AI in 2026">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text= DeepSeek+and+Claude 4.6" class="card-img-top" alt="A Fragmentation: DeepSeek, Claude 4.6, and the State of AI in 2026" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2"> Artificial Intelligence / Industry Analysis</span>
                             <h5 class="card-title fw-bold"><a href="blog/DeepSeek-and-Claude 4.6.html" class="text-dark">A Fragmentation: DeepSeek, Claude 4.6, and the State of AI in 2026</a></h5>
@@ -436,7 +437,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=deepseek+ocr2+v4" class="card-img-top" alt=" The DeepSeek Engram Revolution: OCR2, V4, and the Global Rise of Non-Western AI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=deepseek+ocr2+v4" class="card-img-top" alt=" The DeepSeek Engram Revolution: OCR2, V4, and the Global Rise of Non-Western AI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Artificial Intelligence / Global Technology Trends</span>
                             <h5 class="card-title fw-bold"><a href="blog/deepseek-ocr2-v4.html" class="text-dark"> The DeepSeek Engram Revolution: OCR2, V4, and the Global Rise of Non-Western AI</a></h5>
@@ -445,7 +446,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=qwen3+coder" class="card-img-top" alt="Qwen3-Coder-Next, Server Crashes, and the Open-Weight Revolution">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=qwen3+coder" class="card-img-top" alt="Qwen3-Coder-Next, Server Crashes, and the Open-Weight Revolution" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/qwen3-coder.html" class="text-dark">Qwen3-Coder-Next, Server Crashes, and the Open-Weight Revolution</a></h5>
@@ -454,7 +455,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/800x400/198754/ffffff?text=meta+glasses+palantir+stock+ai+reset+trends+2026" class="card-img-top" alt="The Hardware & Financial AI Supercycle: Meta Glasses, Stock Rallies, and the "Great Reset" of 2026">
+                        <img src="https://placehold.co/800x400/198754/ffffff?text=meta+glasses+palantir+stock+ai+reset+trends+2026" class="card-img-top" alt="The Hardware & Financial AI Supercycle: Meta Glasses, Stock Rallies, and the "Great Reset" of 2026" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/meta-glasses-palantir-stock-ai-reset-trends-2026.html" class="text-dark">The Hardware & Financial AI Supercycle: Meta Glasses, Stock Rallies, and the "Great Reset" of 2026</a></h5>
@@ -463,7 +464,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Claude+4.6+Opus+Sonnet 5" class="card-img-top" alt="Claude Agents: Claude 4.6 Opus, Sonnet 5, and the Rise of Agent Teams">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Claude+4.6+Opus+Sonnet 5" class="card-img-top" alt="Claude Agents: Claude 4.6 Opus, Sonnet 5, and the Rise of Agent Teams" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">General</span>
                             <h5 class="card-title fw-bold"><a href="blog/claude-versions-2026.html" class="text-dark">Claude Agents: Claude 4.6 Opus, Sonnet 5, and the Rise of Agent Teams</a></h5>
@@ -472,7 +473,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Claude+AI+2026" class="card-img-top" alt=" Claude AI in 2026: The Rise of Anthropic's Reasoning Engine">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Claude+AI+2026" class="card-img-top" alt=" Claude AI in 2026: The Rise of Anthropic's Reasoning Engine" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">General</span>
                             <h5 class="card-title fw-bold"><a href="blog/Claude-AI-2026.html" class="text-dark"> Claude AI in 2026: The Rise of Anthropic's Reasoning Engine</a></h5>
@@ -481,7 +482,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=moltbook+openclaw+autonomous+2026" class="card-img-top" alt="The Agent Internet Arrives: Moltbook, OpenClaw, and the 2026 AI prosper">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=moltbook+openclaw+autonomous+2026" class="card-img-top" alt="The Agent Internet Arrives: Moltbook, OpenClaw, and the 2026 AI prosper" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/moltbook-openclaw-autonomous-2026.html" class="text-dark">The Agent Internet Arrives: Moltbook, OpenClaw, and the 2026 AI prosper</a></h5>
@@ -490,7 +491,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=GrokAi+and+Grok+Imagine+1.0" class="card-img-top" alt="Grok Imagine 1.0 & The Rise of AI Video: 2026 Trends Analysis">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=GrokAi+and+Grok+Imagine+1.0" class="card-img-top" alt="Grok Imagine 1.0 & The Rise of AI Video: 2026 Trends Analysis" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/grok-and-GrokImagine.html" class="text-dark">Grok Imagine 1.0 & The Rise of AI Video: 2026 Trends Analysis</a></h5>
@@ -499,7 +500,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+student+offer" class="card-img-top" alt="Google Gemini Student Offer 2026: Get 12 Months of AI Premium ">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+student+offer" class="card-img-top" alt="Google Gemini Student Offer 2026: Get 12 Months of AI Premium " loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">General</span>
                             <h5 class="card-title fw-bold"><a href="blog/Gemini-student-offer.html" class="text-dark">Google Gemini Student Offer 2026: Get 12 Months of AI Premium </a></h5>
@@ -508,7 +509,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+2.5,+Nano Banana+&+Veo 3" class="card-img-top" alt="Gemini 2.5, Nano Banana & Veo 3: The 2025 AI Breakout Guide & Student Offers">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+2.5,+Nano Banana+&+Veo 3" class="card-img-top" alt="Gemini 2.5, Nano Banana & Veo 3: The 2025 AI Breakout Guide & Student Offers" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Gemini 2.5-Nano Banana-Veo 3.html" class="text-dark">Gemini 2.5, Nano Banana & Veo 3: The 2025 AI Breakout Guide & Student Offers</a></h5>
@@ -517,7 +518,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=clawd+AI" class="card-img-top" alt="The "Clawd Bot" Phenomenon: Why people are Searching for the New AI Challenger">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=clawd+AI" class="card-img-top" alt="The "Clawd Bot" Phenomenon: Why people are Searching for the New AI Challenger" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/claudai-info.html" class="text-dark">The "Clawd Bot" Phenomenon: Why people are Searching for the New AI Challenger</a></h5>
@@ -526,7 +527,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=OpenAI+in+2026" class="card-img-top" alt="OpenAI in 2026: The Era of the Super-Assistant and the Stargate factory">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=OpenAI+in+2026" class="card-img-top" alt="OpenAI in 2026: The Era of the Super-Assistant and the Stargate factory" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/openai-2026.html" class="text-dark">OpenAI in 2026: The Era of the Super-Assistant and the Stargate factory</a></h5>
@@ -535,7 +536,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Meta+AI+2026" class="card-img-top" alt="Meta AI in 2026: The Open Source Standard and the Wearable Revolution">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Meta+AI+2026" class="card-img-top" alt="Meta AI in 2026: The Open Source Standard and the Wearable Revolution" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Meta-AI-2026.html" class="text-dark">Meta AI in 2026: The Open Source Standard and the Wearable Revolution</a></h5>
@@ -544,7 +545,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+AI" class="card-img-top" alt="Grok AI in 2026: The Age of Grok 4 and the Colossus Cluster">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Grok+AI" class="card-img-top" alt="Grok AI in 2026: The Age of Grok 4 and the Colossus Cluster" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/Grok-AI.html" class="text-dark">Grok AI in 2026: The Age of Grok 4 and the Colossus Cluster</a></h5>
@@ -553,7 +554,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+AI+updates" class="card-img-top" alt="The State of Gemini AI: 2026 Progress Report and Latest Updates">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Gemini+AI+updates" class="card-img-top" alt="The State of Gemini AI: 2026 Progress Report and Latest Updates" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/gemini-ai-latest-updates.html" class="text-dark">The State of Gemini AI: 2026 Progress Report and Latest Updates</a></h5>
@@ -562,7 +563,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=ClawdBot+on+Mac+Mini" class="card-img-top" alt="Unleashing Local AI: The ClawdBot Revolution on Mac Mini">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=ClawdBot+on+Mac+Mini" class="card-img-top" alt="Unleashing Local AI: The ClawdBot Revolution on Mac Mini" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/clawdbot-mac-mini.html" class="text-dark">Unleashing Local AI: The ClawdBot Revolution on Mac Mini</a></h5>
@@ -571,7 +572,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=OpenAI+Prism" class="card-img-top" alt="Unveiling OpenAI Prism: A Multi-faceted Approach to Advanced AI">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=OpenAI+Prism" class="card-img-top" alt="Unveiling OpenAI Prism: A Multi-faceted Approach to Advanced AI" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/openai-prism.html" class="text-dark">Unveiling OpenAI Prism: A Multi-faceted Approach to Advanced AI</a></h5>
@@ -580,7 +581,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=OPEN+AI+vs+DEEPSEEK" class="card-img-top" alt="OpenAI vs. DeepSeek: A competition between companies">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=OPEN+AI+vs+DEEPSEEK" class="card-img-top" alt="OpenAI vs. DeepSeek: A competition between companies" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/openai-vs-deepseek-ai-philosophies-capabilities.html" class="text-dark">OpenAI vs. DeepSeek: A competition between companies</a></h5>
@@ -589,7 +590,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=agentic+bot" class="card-img-top" alt="An Era of AI: From Agentic Bots to the Apple AI Pin">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=agentic+bot" class="card-img-top" alt="An Era of AI: From Agentic Bots to the Apple AI Pin" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/agentic-bot.html" class="text-dark">An Era of AI: From Agentic Bots to the Apple AI Pin</a></h5>
@@ -598,7 +599,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=clawdbot-ai+info" class="card-img-top" alt="What is Clawdbot AI? The Ultimate Guide to Moltbot (2026 Rebrand)">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=clawdbot-ai+info" class="card-img-top" alt="What is Clawdbot AI? The Ultimate Guide to Moltbot (2026 Rebrand)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/clawdbot-ai-info.html" class="text-dark">What is Clawdbot AI? The Ultimate Guide to Moltbot (2026 Rebrand)</a></h5>
@@ -607,7 +608,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/600x400/198754/ffffff?text=Dive+into+AI" class="card-img-top" alt="Unraveling the AI Enigma: A Deep Dive into Artificial Intelligence">
+                        <img src="https://placehold.co/600x400/198754/ffffff?text=Dive+into+AI" class="card-img-top" alt="Unraveling the AI Enigma: A Deep Dive into Artificial Intelligence" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/unraveling-the-ai-enigma-deep-dive-into-artificial-intelligence.html" class="text-dark">Unraveling the AI Enigma: A Deep Dive into Artificial Intelligence</a></h5>
@@ -616,7 +617,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Chip+race" class="card-img-top" alt="Is China competing with US in ai chips race">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Chip+race" class="card-img-top" alt="Is China competing with US in ai chips race" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Geopolitics / Global Technology Strategy</span>
                             <h5 class="card-title fw-bold"><a href="blog/chip-race.html" class="text-dark">Is China competing with US in ai chips race</a></h5>
@@ -625,7 +626,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Blackwell+vs.+MI325X+vs.+Gaudi%203" class="card-img-top" alt="The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Blackwell+vs.+MI325X+vs.+Gaudi%203" class="card-img-top" alt="The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Technology / Artificial Intelligence Infrastructure</span>
                             <h5 class="card-title fw-bold"><a href="blog/ai-chips.html" class="text-dark">The Performance & Comparison Blackwell vs. MI325X vs. Gaudi 3: Who Wins the 2026 AI Silicon Arms Race?</a></h5>
@@ -634,7 +635,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Bottleneck+in+the+AI+Revolution" class="card-img-top" alt="The Unseen Bottleneck in the AI Revolution">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Bottleneck+in+the+AI+Revolution" class="card-img-top" alt="The Unseen Bottleneck in the AI Revolution" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/ram-shortage.html" class="text-dark">The Unseen Bottleneck in the AI Revolution</a></h5>
@@ -643,7 +644,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=The-Unfolding-Horizon" class="card-img-top" alt="The Unfolding Horizon: Best Tech Shaping Our World Until 2026">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=The-Unfolding-Horizon" class="card-img-top" alt="The Unfolding Horizon: Best Tech Shaping Our World Until 2026" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Tech</span>
                             <h5 class="card-title fw-bold"><a href="blog/The-Unfolding-Horizon.html" class="text-dark">The Unfolding Horizon: Best Tech Shaping Our World Until 2026</a></h5>
@@ -652,7 +653,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=openai+dive" class="card-img-top" alt="The Shifting Sands of AI: A Deep Dive into OpenAI's Latest Chapter and ChatGPT's Evolution">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=openai+dive" class="card-img-top" alt="The Shifting Sands of AI: A Deep Dive into OpenAI's Latest Chapter and ChatGPT's Evolution" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/openai-dive.html" class="text-dark">The Shifting Sands of AI: A Deep Dive into OpenAI's Latest Chapter and ChatGPT's Evolution</a></h5>
@@ -661,7 +662,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=expected+future+of+tech" class="card-img-top" alt="powerful tech which may shape the future of tech">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=expected+future+of+tech" class="card-img-top" alt="powerful tech which may shape the future of tech" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Technology</span>
                             <h5 class="card-title fw-bold"><a href="blog/expectedfuture-oftech.html" class="text-dark">powerful tech which may shape the future of tech</a></h5>
@@ -670,7 +671,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Agentic+AI+Revolution" class="card-img-top" alt="Agentic AI: Why 2026 is the Year Software Starts "Doing"">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=Agentic+AI+Revolution" class="card-img-top" alt="Agentic AI: Why 2026 is the Year Software Starts "Doing"" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">tech</span>
                             <h5 class="card-title fw-bold"><a href="blog/agentic-ai.html" class="text-dark">Agentic AI: Why 2026 is the Year Software Starts "Doing"</a></h5>
@@ -679,7 +680,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/1a237e/ffffff?text=Gemini+vs+ChatGPT+2026" class="card-img-top" alt=" Gemini vs. ChatGPT 2026: The Definitive Tech Comparison">
+                        <img src="https://placehold.co/1200x630/1a237e/ffffff?text=Gemini+vs+ChatGPT+2026" class="card-img-top" alt=" Gemini vs. ChatGPT 2026: The Definitive Tech Comparison" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">Artificial Intelligence</span>
                             <h5 class="card-title fw-bold"><a href="blog/gemini-vs-chatgpt.html" class="text-dark"> Gemini vs. ChatGPT 2026: The Definitive Tech Comparison</a></h5>
@@ -688,7 +689,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <article class="card tech-card h-100">
-                        <img src="https://placehold.co/1200x630/198754/ffffff?text=AI+progress+2025-full-year-analysis" class="card-img-top" alt="AI progress 2025 full year analysis">
+                        <img src="https://placehold.co/1200x630/198754/ffffff?text=AI+progress+2025-full-year-analysis" class="card-img-top" alt="AI progress 2025 full year analysis" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover; background-color: #f1f5f9;">
                         <div class="card-body">
                             <span class="badge bg-secondary mb-2">AI</span>
                             <h5 class="card-title fw-bold"><a href="blog/ai-2025-analysis.html" class="text-dark">AI progress 2025 full year analysis</a></h5>
@@ -707,7 +708,7 @@
 </div></div>
     <div class="fixed-bottom text-center p-2 ad-floating" style="background: rgba(255,255,255,0.95); border-top: 1px solid #ddd; z-index: 9999; box-shadow: 0 -2px 10px rgba(0,0,0,0.1);"><div class="position-relative d-inline-block"><a href="https://junaid474.github.io/techblog/contact.html" target="_blank" style="display: block; height: 45px; line-height: 45px; padding: 0 20px; background-color: #212529; color: #ffffff; text-decoration: none; border-radius: 5px; font-weight: 500; font-size: 15px; min-width: 280px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
     📢 <strong style="color: #0dcaf0;">Special Offer:</strong> Advertise on this website. Ad spots available. Including this floating banner (provide your regular size banner). 
-</a><button type="button" class="btn-close position-absolute top-0 start-100 translate-middle rounded-circle bg-white shadow-sm p-2" onclick="this.closest('.ad-floating').remove()" style="margin-left: 10px;"></button></div></div>
+</a><button type="button" class="btn-close position-absolute top-0 end-0 rounded-circle bg-white shadow-sm p-1 m-1" onclick="this.closest('.ad-floating').remove()"></button></div></div>
     <div id="cookie-banner" class="fixed-bottom p-2 bg-dark text-white d-none justify-content-between align-items-center shadow-lg border border-secondary" style="max-width: 320px; left: auto; right: 20px; bottom: 20px; border-radius: 6px; z-index: 99999; font-size: 0.8rem;">
         <span>We use performance cookies to enhance your experience.</span>
         <button onclick="acceptCookies()" class="btn btn-sm btn-primary ms-3 py-1 px-2">Accept</button>
@@ -763,6 +764,17 @@
             if (document.cookie.indexOf("perf_consent=true") === -1) {
                 document.getElementById('cookie-banner').classList.remove('d-none');
                 document.getElementById('cookie-banner').classList.add('d-flex');
+            }
+        });
+    </script>
+    <script>
+        window.addEventListener('load', function() {
+            if (window.innerWidth >= 1200) {
+                const leftTpl = document.getElementById('tpl-ad-left');
+                if(leftTpl) document.getElementById('container-ad-left').appendChild(leftTpl.content.cloneNode(true));
+                
+                const rightTpl = document.getElementById('tpl-ad-right');
+                if(rightTpl) document.getElementById('container-ad-right').appendChild(rightTpl.content.cloneNode(true));
             }
         });
     </script>
