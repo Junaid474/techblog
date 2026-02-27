@@ -792,7 +792,7 @@
     "left": "",
     "right": "",
     "footer": "<div style=\"width: 100%; padding: 20px; background: #f8f9fa; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; text-align: center; margin: 30px 0;\">\n    <p style=\"font-size: 11px; color: #adb5bd; letter-spacing: 1px; margin-bottom: 10px;\">ADVERTISEMENT</p>\n    <a href=\"#\" style=\"text-decoration: none;\">\n        <img src=\"https://placehold.co/970x250/212529/0dcaf0?text=this+Ad+spot+available+contact+junaidwaseem474@gmail.com\" \n             alt=\"Wide Banner Ad\" \n             style=\"max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);\">\n    </a>\n</div>",
-    "float": "<script>\nwindow.__HUDA_SDK_CONFIG__ = {\n  baseUrl: \"https://ads.hudatech.com.ng\",\n  apiKey: \"39f402200ed62ab0b3fae62a0f9fa94a788e72ead160b642\"\n};\n</script>\n\n<script src=\"https://ads.hudatech.com.ng/sdk/web/v1/box.min.js\"></script>\n\n<!-- Place this between your content (NOT inside header or footer) -->\n<div data-huda-box data-huda-adunit=\"in_article_box\"></div>\n\n<!-- You can place multiple box ads between paragraphs -->\n<div data-huda-box data-huda-adunit=\"in_article_box\"></div>\n    ",
+    "float": "<script defer=\"defer\" data-key=\"39f402200ed62ab0b3fae62a0f9fa94a788e72ead160b642\" data-format=\"banner\" src=\"https://hudatech.com.ng/sdk/alhuda-web-sdk.min.js\">\n</script>",
     "left2": "",
     "right2": ""
   },
