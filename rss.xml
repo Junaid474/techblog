@@ -6,6 +6,14 @@
     <description>Latest insights, updates, and articles.</description>
     <atom:link href="https://junaid474.github.io/techblog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+        <title>The 2026 Guide to Next-Gen AI Visuals: Whisk, Nano Banana 2, Veo 3, and Vheer AI</title>
+        <link>https://junaid474.github.io/techblog/blog/ai-img-vid.html</link>
+        <description> Navigate the rapidly shifting landscape of AI imagery and video in 2026. This comprehensive guide explores the power of Google’s Nano Banana 2, the cinematic capabilities of Veo 3, the intuitive design of Whisk AI, and the rising popularity of free alternatives like Vheer AI.
+ </description>
+        <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+        <guid>https://junaid474.github.io/techblog/blog/ai-img-vid.html</guid>
+    </item>
+    <item>
         <title>🔴 what is happenstance 🔴Get to know what actually happenstance AI is  </title>
         <link>https://junaid474.github.io/techblog/blog/findout-what-is-happenstance.html</link>
         <description>Explore the philosophical roots of happenstance and dive deep into Happenstance AI, a groundbreaking platform that leverages artificial intelligence and natural language processing to transform how we discover and connect with our professional networks.</description>
@@ -137,13 +145,6 @@
         <description>A comprehensive analysis of Gemini 3.1 Pro, detailing its advanced Web capabilities, the Nano Banana image model, Veo video generation, Lyria 3 music creation, and Gemini Live's real-time interactions.</description>
         <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
         <guid>https://junaid474.github.io/techblog/blog/Gemini-3.1-Pro.html</guid>
-    </item>
-    <item>
-        <title>GROK-4-AI--Get information about its architecture role in the pursuit of AGI</title>
-        <link>https://junaid474.github.io/techblog/blog/Grok-4-ai.html</link>
-        <description>An in-depth exploration of Grok-4, the next-generation AI model from xAI. This analysis covers its architectural breakthroughs, real-time data integration via the X platform, ethical safeguards, and its role in the pursuit of Artificial General Intelligence (AGI).</description>
-        <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-        <guid>https://junaid474.github.io/techblog/blog/Grok-4-ai.html</guid>
     </item>
 </channel>
 </rss>
