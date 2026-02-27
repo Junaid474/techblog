@@ -72,7 +72,7 @@
         .author-box { background: white; border-left: 4px solid #0d6efd; padding: 20px; border-radius: 8px; }
         a { text-decoration: none; }
         /* Ad Styles */
-        .ad-floating * { max-width: 100% !important; box-sizing: border-box !important; }
+        /* Floating limitations removed */
         .ad-sidebar-left img, .ad-sidebar-right img { max-width: 100%; height: auto; display: block; margin-bottom: 10px; }
         .ad-footer-section img { max-width: 100%; height: auto; }
         footer a:hover { color: #fff !important; }
@@ -194,7 +194,7 @@ This article provides a comprehensive deep dive into these technologies, explain
              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     </a>
 </div></div>
-    <div class="fixed-bottom d-flex justify-content-center ad-floating px-2" style="z-index: 9999; pointer-events: none; bottom: 35px;"><div class="position-relative" style="pointer-events: auto; max-width: 100%; box-sizing: border-box; display: flex; justify-content: center;"><script>
+    <div class="fixed-bottom ad-floating" style="z-index: 9999; text-align: center; width: 100%; pointer-events: auto;"><script>
 window.__HUDA_SDK_CONFIG__ = {
   baseUrl: "https://ads.hudatech.com.ng",
   apiKey: "39f402200ed62ab0b3fae62a0f9fa94a788e72ead160b642"
@@ -204,7 +204,7 @@ window.__HUDA_SDK_CONFIG__ = {
 <script src="https://ads.hudatech.com.ng/sdk/web/v1/banner.min.js"></script>
 
 <div data-huda-banner data-huda-adunit="bottom_banner"></div>
-    <button type="button" class="btn-close bg-white rounded-circle shadow border border-secondary" style="position: absolute; top: -10px; right: -5px; padding: 0.4rem; z-index: 1050; opacity: 1;" aria-label="Close" onclick="this.closest('.ad-floating').remove()"></button></div></div>
+    </div>
     <div id="cookie-banner" class="fixed-bottom py-1 px-3 bg-dark text-white d-none justify-content-between align-items-center shadow-lg" style="width: fit-content; max-width: 100vw; left: auto; right: 0; bottom: 0; border-top-left-radius: 8px; z-index: 99999; font-size: 0.75rem; white-space: nowrap;">
         <span class="me-3 text-truncate">We use cookies to enhance your experience.</span>
         <button onclick="acceptCookies()" class="btn btn-primary" style="padding: 2px 8px; font-size: 0.75rem;">Accept</button>
