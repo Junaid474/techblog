@@ -11,6 +11,7 @@ tech blog || Get technological updates - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
+- [The 2026 Guide to 🔴MiniMax AI🔴: Mastering Hailuo Video, Speech 2.8, and the M2.5 Ecosystem](https://junaid474.github.io/techblog/blog/MiniMax-AI.html)
 - [The 2026 Guide to🔴 Arcade AI🔴: Mastering Interactive Demos and AI-Powered Product Tours](https://junaid474.github.io/techblog/blog/Arcade-ai.html)
 - [🔴Invideo AI 4.0🔴: The personal Command Center to use Sora 2 and Veo 3.1](https://junaid474.github.io/techblog/blog/invideo-ai-4-use-sora-2-and-veo-3.1.html)
 - [The 🔴Veo 3 AI 🔴 by Google: Native Audio,high accuracy Physics, and already the End of Silent AI Video](https://junaid474.github.io/techblog/blog/Veo-3-AI.html)

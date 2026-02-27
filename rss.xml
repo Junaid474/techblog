@@ -6,6 +6,13 @@
     <description>Latest insights, updates, and articles.</description>
     <atom:link href="https://junaid474.github.io/techblog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
+        <title>The 2026 Guide to 🔴MiniMax AI🔴: Mastering Hailuo Video, Speech 2.8, and the M2.5 Ecosystem</title>
+        <link>https://junaid474.github.io/techblog/blog/MiniMax-AI.html</link>
+        <description>Explore the explosive rise of MiniMax AI in 2026. This comprehensive guide details the extreme physics of the Hailuo video models, the emotional depth of Speech 2.8, and how MiniMax's full-stack approach is challenging industry giants like OpenAI and Google.</description>
+        <pubDate>Fri, 27 Feb 2026 00:00:00 GMT</pubDate>
+        <guid>https://junaid474.github.io/techblog/blog/MiniMax-AI.html</guid>
+    </item>
+    <item>
         <title>The 2026 Guide to🔴 Arcade AI🔴: Mastering Interactive Demos and AI-Powered Product Tours</title>
         <link>https://junaid474.github.io/techblog/blog/Arcade-ai.html</link>
         <description>Discover how Arcade AI (arcade.software) is revolutionizing the way companies showcase products in 2026. This comprehensive 2000-word guide covers interactive capture, synthetic AI voiceovers, advanced branching, and why Arcade is the leading tool for product-led growth (PLG) teams.</description>
@@ -138,13 +145,6 @@
         <description>A deep dive into Handshake AI, exploring how the leading career network is connecting verified academic experts with frontier AI labs to validate foundational models, while simultaneously using artificial intelligence to revolutionize the early-career job search.</description>
         <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
         <guid>https://junaid474.github.io/techblog/blog/Handshake-AI.html</guid>
-    </item>
-    <item>
-        <title>IFS.ai Industrial support: How IFS.ai is Revolutionizing Enterprise Software</title>
-        <link>https://junaid474.github.io/techblog/blog/IFS.ai-info.html</link>
-        <description>A comprehensive exploration of IFS AI, its embedded industrial capabilities across ERP, FSM, and EAM, and how it is transforming complex operational environments by moving beyond generative text to actionable, autonomous intelligence.</description>
-        <pubDate>Sun, 22 Feb 2026 00:00:00 GMT</pubDate>
-        <guid>https://junaid474.github.io/techblog/blog/IFS.ai-info.html</guid>
     </item>
 </channel>
 </rss>
