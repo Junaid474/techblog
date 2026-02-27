@@ -72,6 +72,7 @@
         .author-box { background: white; border-left: 4px solid #0d6efd; padding: 20px; border-radius: 8px; }
         a { text-decoration: none; }
         /* Ad Styles */
+        .ad-floating * { max-width: 100vw !important; box-sizing: border-box !important; }
         
         .ad-sidebar-left img, .ad-sidebar-right img { max-width: 100%; height: auto; display: block; margin-bottom: 10px; }
         .ad-footer-section img { max-width: 100%; height: auto; }
@@ -157,7 +158,7 @@
              style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
     </a>
 </div></div>
-    <div class="fixed-bottom w-100" style="z-index: 9999;"><script>
+    <div class="fixed-bottom ad-floating" style="z-index: 9999; width: 100%; max-width: 100vw; overflow-x: hidden; text-align: center;"><script>
 window.__HUDA_SDK_CONFIG__ = {
   baseUrl: "https://ads.hudatech.com.ng",
   apiKey: "39f402200ed62ab0b3fae62a0f9fa94a788e72ead160b642"
