@@ -11,9 +11,10 @@ tech blog || Get technological updates - Tech Blog
 - [Terms](https://junaid474.github.io/techblog/terms.html)
 
 ## Articles
-- [Invideo AI 4.0: The personal Command Center to use Sora 2 and Veo 3.1](https://junaid474.github.io/techblog/blog/invideo-ai-4-use-sora-2-and-veo-3.1.html)
-- [The Veo 3 AI by Google: Native Audio,high accuracy Physics, and already the End of Silent AI Video](https://junaid474.github.io/techblog/blog/Veo-3-AI.html)
-- [Vheer AI: The Ultimate Free & Unlimited Creative Suite for 2026](https://junaid474.github.io/techblog/blog/Vheer-AI.html)
+- [The 2026 Guide to🔴 Arcade AI🔴: Mastering Interactive Demos and AI-Powered Product Tours](https://junaid474.github.io/techblog/blog/Arcade-ai.html)
+- [🔴Invideo AI 4.0🔴: The personal Command Center to use Sora 2 and Veo 3.1](https://junaid474.github.io/techblog/blog/invideo-ai-4-use-sora-2-and-veo-3.1.html)
+- [The 🔴Veo 3 AI 🔴 by Google: Native Audio,high accuracy Physics, and already the End of Silent AI Video](https://junaid474.github.io/techblog/blog/Veo-3-AI.html)
+- [🔴Vheer AI🔴: The Ultimate Free & Unlimited Creative Suite for 2026](https://junaid474.github.io/techblog/blog/Vheer-AI.html)
 - [The 2026 Guide to Next-Gen AI Visuals: Whisk, Nano Banana 2, Veo 3, and Vheer AI](https://junaid474.github.io/techblog/blog/ai-img-vid.html)
 - [🔴 what is happenstance 🔴Get to know what actually happenstance AI is  ](https://junaid474.github.io/techblog/blog/findout-what-is-happenstance.html)
 - [What is artificial intelligence](https://junaid474.github.io/techblog/blog/what-is-artificial-intelligence-comprehensive-guide.html)
