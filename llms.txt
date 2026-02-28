@@ -5,11 +5,11 @@ tech blog || Get technological updates - Tech Blog
 ## Pages
 - [Home](https://techiblog.space/)
 - [Articles](https://techiblog.space/articles.html)
-- [About](https://techiblog.space/about.html)
 - [Contact](https://techiblog.space/contact.html)
-- [Privacy](https://techiblog.space/privacy.html)
-- [Terms](https://techiblog.space/terms.html)
 - [Disclaimer](https://techiblog.space/disclaimer.html)
+- [About-us](https://techiblog.space/about-us.html)
+- [Privacy-policy](https://techiblog.space/privacy-policy.html)
+- [Terms-and-conditions](https://techiblog.space/terms-and-conditions.html)
 
 ## Articles
 - [The 2026 Guide to 🔴MiniMax AI🔴: Mastering Hailuo Video, Speech 2.8, and the M2.5 Ecosystem](https://techiblog.space/blog/MiniMax-AI.html)
