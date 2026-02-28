@@ -9,6 +9,7 @@ tech blog || Get technological updates - Tech Blog
 - [Contact](https://junaid474.github.io/techblog/contact.html)
 - [Privacy](https://junaid474.github.io/techblog/privacy.html)
 - [Terms](https://junaid474.github.io/techblog/terms.html)
+- [Disclaimer](https://junaid474.github.io/techblog/disclaimer.html)
 
 ## Articles
 - [The 2026 Guide to 🔴MiniMax AI🔴: Mastering Hailuo Video, Speech 2.8, and the M2.5 Ecosystem](https://junaid474.github.io/techblog/blog/MiniMax-AI.html)
