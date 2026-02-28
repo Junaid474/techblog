@@ -5,9 +5,9 @@ tech blog || Get technological updates - Tech Blog
 ## Pages
 - [Home](https://techiblog.space/)
 - [Articles](https://techiblog.space/articles.html)
-- [Contact](https://techiblog.space/contact.html)
 - [Disclaimer](https://techiblog.space/disclaimer.html)
 - [About-us](https://techiblog.space/about-us.html)
+- [Contact-us](https://techiblog.space/contact-us.html)
 - [Privacy-policy](https://techiblog.space/privacy-policy.html)
 - [Terms-and-conditions](https://techiblog.space/terms-and-conditions.html)
 
